@@ -1,0 +1,9 @@
+<resources>
+    <string name="str2">Страница диагностики</string>
+    <string name="app_name">Диагностика PC</string>
+    <string name="action_settings">Настройки</string>
+    <string name="action_item1">Диагностика</string>
+    <string name="action_item2">Справочник</string>
+    <string name="action_item3">Выход</string>
+    <string name="title_activity_diagnostic">Диагностика</string>
+</resources>
