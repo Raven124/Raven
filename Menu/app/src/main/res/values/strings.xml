@@ -6,4 +6,5 @@
     <string name="action_item2">Справочник</string>
     <string name="action_item3">Выход</string>
     <string name="title_activity_diagnostic">Диагностика</string>
+    <string name="title_activity_home">HomeActivity</string>
 </resources>
