@@ -11,10 +11,12 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity  {
-
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+    ImageButton imgbtn1;
+    ImageButton imgbtn2;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,6 +24,11 @@ public class MainActivity extends AppCompatActivity  {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+        imgbtn1 = (ImageButton) findViewById(R.id.imgbtn1);
+        imgbtn1.setOnClickListener(this);
+
+        imgbtn2 = (ImageButton) findViewById(R.id.imgbtn2);
+        imgbtn2.setOnClickListener(this);
 
     }
 
@@ -52,4 +59,24 @@ public class MainActivity extends AppCompatActivity  {
         }
         return super.onOptionsItemSelected(item);
     }
+
+
+    @Override
+    public void onClick(View v) {
+        switch (v.getId()) {
+            case R.id.imgbtn1: {
+                Intent intent = new Intent(this, Diagnostic.class);
+                startActivity(intent);
+                break;
+            }
+            case R.id.imgbtn2:
+                Intent intent = new Intent(this, Directory.class);
+                startActivity(intent);
+                break;
+            default:
+                break;
+
+        }
+    }
 }
+

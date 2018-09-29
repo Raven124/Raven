@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:orientation="vertical"
-    android:background="@color/colorBackground"
+    android:background="#000000"
     >
 
     <android.support.design.widget.AppBarLayout
@@ -58,8 +58,8 @@
 
 
         <LinearLayout
-            android:layout_marginTop="40dp"
-            android:background="@color/colorBackground"
+            android:layout_marginTop="3dp"
+            android:background="@color/colorPrimary"
             android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="0dp"
@@ -73,13 +73,14 @@
                 android:layout_height="match_parent">
 
                 <ImageButton
+                    android:id="@+id/imgbtn1"
                     android:layout_width="140dp"
                     android:layout_height="140dp"
                     android:background="@color/colorPrimary"
-                    android:src="@mipmap/dg3"
-                    android:contentDescription="TODO" />
+                    android:contentDescription="TODO"
+                    android:src="@mipmap/dg3" />
                 <TextView
-                    android:text="Дмагностика"
+                    android:text="Диагностика"
                     android:textAlignment="center"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
@@ -106,21 +107,24 @@
                 android:layout_height="match_parent">
 
                 <ImageButton
-                    android:src="@mipmap/base"
-                    android:background="@color/colorPrimary"
+                    android:id="@+id/imgbtn2"
                     android:layout_width="140dp"
-                    android:layout_height="140dp" />
+                    android:layout_height="140dp"
+                    android:background="@color/colorPrimary"
+                    android:src="@mipmap/base" />
                 <TextView
                     android:text="Справочник"
                     android:textAlignment="center"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
+
                 <ImageButton
-                    android:layout_marginTop="10dp"
-                    android:src="@mipmap/ic_launcher_foreground"
-                    android:background="@color/colorPrimary"
+                    android:id="@+id/imgbtn3"
                     android:layout_width="140dp"
-                    android:layout_height="140dp" />
+                    android:layout_height="140dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/colorPrimary"
+                    android:src="@mipmap/ic_launcher_foreground" />
                 <TextView
                     android:text="Настройки"
                     android:textAlignment="center"
