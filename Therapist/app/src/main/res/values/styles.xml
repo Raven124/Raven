@@ -1,0 +1,48 @@
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="CodeFont">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:paddingBottom">15dp</item>
+    </style>
+
+    <style name="CodeFont.Big">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CodeFont.Big.Green">
+        <item name="android:textColor">#13b64c</item>
+    </style>
+
+    <style name="CodeFont.Big.Red">
+        <item name="android:textColor">#b61313</item>
+    </style>
+
+    <style name="CodeFont.Big.Left">
+        <item name="android:gravity">left</item>
+    </style>
+    <style name="CodeFont.Big.About">
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="aboutBox">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginLeft">30dp</item>
+        <item name="android:layout_marginRight">30dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+</resources>
