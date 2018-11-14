@@ -1,0 +1,317 @@
+<resources>
+    <string name="app_name">Материальные рецепты</string>
+
+    <!-- AdMob ad unit IDs -->
+    <string name="banner_home_footer">ca-app-pub-7287003020531388/4190042558</string>
+
+    <string name="navigation_drawer_open">Показать навигацию</string>
+    <string name="navigation_drawer_close">Скрыть навигацию</string>
+    <string name="action_settings">Настройки</string>
+    <string name="action_edit">Редактировать</string>
+    <string name="action_shoping">Корзина</string>
+    <string name="action_search">Поиск</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, tritani suscipit sea id. Dico eloquentiam et sea, movet intellegam at pri. In vis natum gubergren efficiendi. Esse integre vivendum nec te. Modus iusto sententiae duo ut, mei iudico graeci nostrud eu, mundi exerci repudiare ei pri. Mundi alterum facilisi ne mel, quas placerat hendrerit ei mea, hinc habeo illud ei pri.</string>
+    <string name="lorem_ipsum2">An verear theophrastus delicatissimi cum. In cum ancillae convenire. Est ne omnes causae corrumpit, eum duis sententiae necessitatibus te, mollis.</string>
+    <string name="lorem_ipsum3">Lorem ipsum dolor sit amet, vel at aeque graeci intellegat. Modus utinam mea ei, ut illum ponderum vim. Ridens tractatos.</string>
+    <string name="lorem_ipsum4">Possim discere alienum qui ei, per ex moderatius vituperatoribus. Justo consul minimum eum.</string>
+    <string name="twitter_consumer_key">jWehsNnSG5xy1bGfSQhgmgEZI</string>
+    <string name="twitter_consumer_secret">wMzA7zTf7GPkyeWeezbq2c4gQ3VXNER0npbmdZG6iREg7TlMvA</string>
+    <string name="instagram_token">5571744371.14d5057.ed4a5fcec0594f4ea68664c2340308e8</string>
+    <string name="youtube_api_key">AIzaSyBQjpE3RBtPm9PyquAMbhNCMkaYzhHpjbI</string>
+    <string name="tumblr_api_key">57gBN0owYvjhhe0uMnAXin64vnZlHECqgTTXZyxWy7b94WyGyH</string>
+
+    <!--==========================================================================================-->
+    <!--Login and Signup Category-->
+    <!--==========================================================================================-->
+    <string-array name="login_signup_menu">
+        <item>UРегистратор #1</item>
+        <item>UРегистратор #2</item>
+        <item>UРегистратор #3</item>
+        <item>UРегистратор #4</item>
+        <item>UРегистратор #5</item>
+        <item>UРегистратор #6</item>
+        <item>UРегистратор #7</item>
+        <item>UРегистратор #8</item>
+        <item>UРегистратор #9</item>
+        <item>UРегистратор #10</item>
+        <item>iРегистратор #11</item>
+        <item>iРегистратор #12</item>
+        <item>iРегистратор #13</item>
+        <item>iРегистратор #14</item>
+        <item>iРегистратор #15</item>
+        <item>iРегистратор #16</item>
+        <item>iРегистратор #17</item>
+        <item>iРегистратор #18</item>
+        <item>iРегистратор #19</item>
+        <item>iРегистратор #20</item>
+        <item>Приветствие #1</item>
+        <item>Приветствие #2</item>
+        <item>Приветствие #3</item>
+        <item>Восстановление</item>
+        <item>Верификация</item>
+    </string-array>
+
+    <!--==========================================================================================-->
+    <!--Menu Category-->
+    <!--==========================================================================================-->
+    <string-array name="menu_menu">
+        <item>Навигация #1</item>
+        <item>Навигация #2</item>
+        <item>Навигация #3</item>
+        <item>Навигация #4</item>
+        <item>Навигация #5</item>
+        <item>Навигация #6</item>
+        <item>Навигация #7</item>
+        <item>Навигация #8</item>
+        <item>Навигация #9</item>
+        <item>Навигация #10</item>
+        <item>Навигация #11</item>
+        <item>Навигация #12</item>
+        <item>Навигация #13</item>
+        <item>Навигация #14</item>
+        <item>Навигация #15</item>
+        <item>Навигация #16</item>
+        <item>Навигация #17</item>
+        <item>Навигация #18</item>
+        <item>Навигация #19</item>
+        <item>Навигация #20</item>
+    </string-array>
+
+    <!--==========================================================================================-->
+    <!--Profile Category-->
+    <!--==========================================================================================-->
+    <string-array name="profile_menu">
+        <item>Профиль #1</item>
+        <item>Профиль #2</item>
+        <item>Профиль #3</item>
+        <item>Профиль #4</item>
+        <item>Профиль #5</item>
+        <item>Профиль #6</item>
+        <item>Профиль #7</item>
+        <item>Профиль #8</item>
+        <item>Профиль #9</item>
+        <item>Профиль #10</item>
+        <item>Профиль #11</item>
+        <item>Профиль #12</item>
+        <item>Профиль #13</item>
+        <item>Профиль #14</item>
+        <item>Профиль #15</item>
+        <item>Профиль #16</item>
+        <item>Профиль #17</item>
+        <item>Профиль #18</item>
+        <item>Профиль #19</item>
+        <item>Профиль #20</item>
+        <item>Профиль #21</item>
+        <item>Профиль #22</item>
+        <item>Профиль #23</item>
+        <item>Профиль #24</item>
+        <item>Профиль #25</item>
+        <item>Профиль #26</item>
+        <item>Профиль #27</item>
+        <item>Профиль #28</item>
+        <item>Профиль #29</item>
+        <item>Профиль #30</item>
+    </string-array>
+    <!--==========================================================================================-->
+    <!--Profile Category-->
+    <!--==========================================================================================-->
+    <string-array name="walktrought_menu">
+        <item>Степпер #1</item>
+        <item>Степпер #2</item>
+        <item>Степпер #3</item>
+        <item>Степпер #4</item>
+        <item>Степпер #5</item>
+        <item>Степпер #6</item>
+        <item>Степпер #7</item>
+        <item>Степпер #8</item>
+        <item>Степпер #9</item>
+        <item>Степпер #10</item>
+        <item>Степпер #11</item>
+        <item>Степпер #12</item>
+        <item>Степпер #13</item>
+        <item>Степпер #14</item>
+        <item>Степпер #15</item>
+        <item>Степпер #16</item>
+        <item>Степпер #17</item>
+        <item>Степпер #18</item>
+        <item>Степпер #19</item>
+        <item>Степпер #20</item>
+    </string-array>
+    <!--==========================================================================================-->
+    <!--Activity Category-->
+    <!--==========================================================================================-->
+    <string-array name="activity_menu">
+        <item>Активность #1</item>
+        <item>Активность #2</item>
+        <item>Активность #3</item>
+        <item>Активность #4</item>
+        <item>Активность #5</item>
+        <item>Активность #6</item>
+        <item>Активность #7</item>
+        <item>Активность #8</item>
+        <item>Активность #9</item>
+        <item>Активность #10</item>
+        <item>Активность #11</item>
+        <item>Активность #12</item>
+        <item>Активность #13</item>
+        <item>Активность #14</item>
+        <item>Активность #15</item>
+        <item>Активность #16</item>
+        <item>Активность #17</item>
+        <item>Активность #18</item>
+        <item>Активность #19</item>
+        <item>Активность #20</item>
+        <item>Активность #21</item>
+        <item>Активность #22</item>
+        <item>Активность #23</item>
+        <item>Активность #24</item>
+        <item>Активность #25</item>
+        <item>Активность #26</item>
+        <item>Активность #27</item>
+        <item>Активность #28</item>
+        <item>Активность #29</item>
+        <item>Активность #30</item>
+    </string-array>
+    <!--==========================================================================================-->
+    <!--Gallery Category-->
+    <!--==========================================================================================-->
+    <string-array name="gallery_menu">
+        <item>Галерея #1</item>
+        <item>Галерея #2</item>
+        <item>Галерея #3</item>
+        <item>Галерея #4</item>
+        <item>Галерея #5</item>
+        <item>Галерея #6</item>
+        <item>Галерея #7</item>
+        <item>Галерея #8</item>
+        <item>Галерея #9</item>
+        <item>Галерея #10</item>
+        <item>Галерея #11</item>
+        <item>Галерея #12</item>
+        <item>Галерея #13</item>
+        <item>Галерея #14</item>
+        <item>Галерея #15</item>
+        <item>Галерея #16</item>
+        <item>Галерея #17</item>
+        <item>Галерея #18</item>
+        <item>Галерея #19</item>
+        <item>Галерея #20</item>
+        <item>Галерея #21</item>
+        <item>Галерея #22</item>
+        <item>Галерея #23</item>
+        <item>Галерея #24</item>
+        <item>Галерея #25</item>
+    </string-array>
+    <!--==========================================================================================-->
+    <!--Gallery Category-->
+    <!--==========================================================================================-->
+    <string-array name="ecommerce_menu">
+        <item>Корзина #1</item>
+        <item>Корзина #2</item>
+        <item>Корзина #3</item>
+        <item>Корзина #4</item>
+        <item>Корзина #5</item>
+        <item>Корзина #6</item>
+        <item>Корзина #7</item>
+        <item>Корзина #8</item>
+        <item>Корзина #9</item>
+        <item>Корзина #10</item>
+        <item>Корзина #11</item>
+        <item>Корзина #12</item>
+        <item>Корзина #13</item>
+        <item>Корзина #14</item>
+        <item>Корзина #15</item>
+        <item>Корзина #16</item>
+        <item>Корзина #17</item>
+        <item>Корзина #18</item>
+        <item>Корзина #19</item>
+        <item>Корзина #20</item>
+        <item>Корзина #21</item>
+        <item>Корзина #22</item>
+        <item>Корзина #23</item>
+        <item>Корзина #24</item>
+        <item>Корзина #25</item>
+        <item>Корзина #26</item>
+        <item>Корзина #27</item>
+        <item>Корзина #28</item>
+        <item>Корзина #29</item>
+        <item>Корзина #30</item>
+    </string-array>
+    <!--==========================================================================================-->
+    <!--Extra Design Category-->
+    <!--==========================================================================================-->
+    <string-array name="extradesign_menu">
+        <item>Modal Dialog Style 1</item>
+        <item>Modal Dialog Style 2</item>
+        <item>Modal Dialog Style 3</item>
+        <item>Left Menu Light</item>
+        <item>Left Menu With Icons</item>
+        <item>Left Menu Dark</item>
+        <item>Left Menu Social</item>
+        <item>Checkbox Light Style</item>
+        <item>Checkbox Dark Style</item>
+        <item>Text Light Style</item>
+        <item>Text Dark Style</item>
+        <item>Search Style 1</item>
+        <item>Search Style 2</item>
+        <item>Search Style 3</item>
+    </string-array>
+    <!--==========================================================================================-->
+    <!--Music Category-->
+    <!--==========================================================================================-->
+    <string-array name="music_menu">
+        <item>Плейлист #1</item>
+        <item>Плейлист #2</item>
+        <item>Плейлист #3</item>
+        <item>Плейлист #4</item>
+        <item>Плейлист #5</item>
+        <item>Плейлист #6</item>
+        <item>Плейлист #7</item>
+        <item>Плейлист #8</item>
+        <item>Плейлист #9</item>
+        <item>Плейлист #10</item>
+        <item>Плейлист #11</item>
+        <item>Плейлист #12</item>
+        <item>Плейлист #13</item>
+        <item>Плейлист #14</item>
+    </string-array>
+    <string name="title_activity_profile_style5">Profile</string>
+
+    <string-array name="dummy_lyric">
+        <item>Ex omnes putent adipiscing quo.</item>
+        <item>Ex pri suas discere eruditi.</item>
+        <item>Equidem eligendi sit no, purto.</item>
+        <item>Id nostrud vulputate posidonium pri.</item>
+        <item>Ex natum tamquam cum quidam.</item>
+        <item>Deleniti pericula persequeris ex pro.</item>
+        <item>In ubique graeci vix cu.</item>
+        <item>Liber ornatus an mel, eu.</item>
+        <item>Ius summo dissentiet eu natum.</item>
+        <item>Ut vocibus platonem quaerendum eos.</item>
+    </string-array>
+
+    <!--==========================================================================================-->
+    <!--News Category-->
+    <!--==========================================================================================-->
+    <string-array name="news_menu">
+        <item>Лента #1</item>
+        <item>Лента #2</item>
+        <item>Лента #3</item>
+        <item>Лента #4</item>
+        <item>Лента #5</item>
+        <item>Лента #6</item>
+        <item>Лента #7</item>
+    </string-array>
+
+    <!--==========================================================================================-->
+    <!--Content Category-->
+    <!--==========================================================================================-->
+    <string-array name="content_menu">
+        <item>Wordpress</item>
+        <item>Twitter</item>
+        <item>Instagram</item>
+        <item>Youtube</item>
+        <item>Tumblr</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "308811235860",
+    "firebase_url": "https://provaider-5e867.firebaseio.com",
+    "project_id": "provaider-5e867",
+    "storage_bucket": "provaider-5e867.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:308811235860:android:fa16f757dfaad39f",
+        "android_client_info": {
+          "package_name": "ibanzay.therapist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "308811235860-u4m6vl3erql7n9ql8h19ggmhumqo01v5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ibanzay.therapist",
+            "certificate_hash": "d494ce04560f5bc9ada7ec96a779d4db5510b9e8"
+          }
+        },
+        {
+          "client_id": "308811235860-eavp1pk90hfa19oh3fg8glapln0429md.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCudZAtaWx06R4cZhKf4hz8MLUeR6w7Fdg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "308811235860-eavp1pk90hfa19oh3fg8glapln0429md.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

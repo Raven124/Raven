@@ -16,9 +16,9 @@ import java.io.OutputStream;
 //Класс для работы с базой данных
 public class DatabaseHelper extends SQLiteOpenHelper implements BaseColumns{
 
-    private static String DATABASE_PATH = "data/data/ibanzay.therapist/databases/"; //Путь к файлу БД
-    private static final String DATABASE_NAME = "diagnostic.db"; //Имя файла БД
-    private static final int DATABASE_VERSION = 1; //Версия БД
+    public static String DATABASE_PATH = "data/data/ibanzay.therapist/databases/"; //Путь к файлу БД
+    public static final String DATABASE_NAME = "diagnostic2.db"; //Имя файла БД
+    public static final int DATABASE_VERSION = 1; //Версия БД
 
     public static final String DB_MAIN_TABLE = "general_symptoms"; //Имя основной таблицы в БД
     public static final String SCHEMA_ID = "schemaID";
@@ -52,11 +52,6 @@ public class DatabaseHelper extends SQLiteOpenHelper implements BaseColumns{
         this.myContext = context;
     }
 
-    public DatabaseHelper(Context context, String name, SQLiteDatabase.CursorFactory factory,
-                          int version, DatabaseErrorHandler errorHandler){
-        super(context, name, factory, version, errorHandler);
-        this.myContext = context;
-    }
 
     @Override
     public void onCreate(SQLiteDatabase db) {
@@ -66,7 +61,8 @@ public class DatabaseHelper extends SQLiteOpenHelper implements BaseColumns{
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion){
         Log.w("SQLite", "Обновляемся с версии " + oldVersion + " на версию " + newVersion);
-        db.execSQL("DROP TABLE IF IT EXISTS " + DATABASE_TABLE);
+        db.execSQL("DROP TABLE IF EXISTS " + DATABASE_TABLE);
+        db.execSQL("DROP TABLE IF EXISTS " + DB_MAIN_TABLE);
         onCreate(db);
     }
 

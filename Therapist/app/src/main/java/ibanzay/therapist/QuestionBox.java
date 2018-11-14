@@ -16,7 +16,7 @@ import android.widget.TextView;
 import android.widget.ScrollView;
 
 public class QuestionBox extends AppCompatActivity implements View.OnClickListener {
-    private static final String DATABASE_NAME = "diagnostic.db";
+    private static final String DATABASE_NAME = "diagnostic2.db";
     private static final int DB_VERSION = 1;
 
     private DatabaseHelper mDatabaseHelper;

@@ -11,6 +11,8 @@ import android.view.View;
 import android.view.Window;
 import android.widget.ImageButton;
 
+import ibanzay.therapist.Directory;
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     ImageButton imgbtn1;
     ImageButton imgbtn2;

@@ -21,7 +21,7 @@ import android.widget.TextView;
 import java.io.IOException;
 
 public class Main extends ActionBarActivity implements View.OnClickListener {
-    private static final String DATABASE_NAME = "diagnostic.db";
+    private static final String DATABASE_NAME = "diagnostic2.db";
     private static final int DB_VERSION = 1;
 
     private DatabaseHelper mDatabaseHelper;
