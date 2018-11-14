@@ -12,6 +12,6 @@ public class Frag1 extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.frag1_layout,container,false );
+        return inflater.inflate(R.layout.content_main,container,false );
     }
 }
