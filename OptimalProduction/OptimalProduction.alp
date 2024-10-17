@@ -113,7 +113,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1725800501410</Id>
 					<Name><![CDATA[t1]]></Name>
-					<X>840</X><Y>100</Y>
+					<X>940</X><Y>100</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -128,7 +128,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1725802619266</Id>
 					<Name><![CDATA[t2]]></Name>
-					<X>900</X><Y>100</Y>
+					<X>1000</X><Y>100</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -287,7 +287,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1726558193425</Id>
 					<Name><![CDATA[t3]]></Name>
-					<X>1260</X><Y>100</Y>
+					<X>1240</X><Y>100</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -302,7 +302,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1726558792115</Id>
 					<Name><![CDATA[t4]]></Name>
-					<X>1200</X><Y>360</Y>
+					<X>1180</X><Y>360</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -317,7 +317,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1726558849515</Id>
 					<Name><![CDATA[p1]]></Name>
-					<X>1310</X><Y>100</Y>
+					<X>1290</X><Y>100</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -332,7 +332,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1726558861859</Id>
 					<Name><![CDATA[p2]]></Name>
-					<X>1250</X><Y>360</Y>
+					<X>1230</X><Y>360</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -347,7 +347,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1726803319131</Id>
 					<Name><![CDATA[pr]]></Name>
-					<X>1320</X><Y>360</Y>
+					<X>1300</X><Y>360</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -362,7 +362,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1726803957561</Id>
 					<Name><![CDATA[last_pr1]]></Name>
-					<X>1360</X><Y>100</Y>
+					<X>1340</X><Y>100</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -407,7 +407,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1728436826165</Id>
 					<Name><![CDATA[pr2]]></Name>
-					<X>1440</X><Y>100</Y>
+					<X>1420</X><Y>100</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -422,7 +422,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1728437036739</Id>
 					<Name><![CDATA[last_pr2]]></Name>
-					<X>1390</X><Y>360</Y>
+					<X>1370</X><Y>360</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -749,75 +749,9 @@
 			</Variables>
 			<Connectors>
 				<Connector>
-					<Id>1725790076024</Id>
-					<Name><![CDATA[connector7]]></Name>
-					<X>810</X><Y>215</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<SourceEmbeddedObjectReference>
-						<PackageName><![CDATA[optimalproduction]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[VF3_2]]></ItemName>
-					</SourceEmbeddedObjectReference>
-					<SourceConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-						<ClassName><![CDATA[Service]]></ClassName>
-						<ItemName><![CDATA[in]]></ItemName>
-					</SourceConnectableItemReference>
-					<TargetEmbeddedObjectReference>
-						<PackageName><![CDATA[optimalproduction]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[СтолПодачи_2]]></ItemName>
-					</TargetEmbeddedObjectReference>
-					<TargetConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-						<ClassName><![CDATA[Service]]></ClassName>
-						<ItemName><![CDATA[out]]></ItemName>
-					</TargetConnectableItemReference>
-					<Points>
-						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>-50</X><Y>0</Y></Point>
-					</Points>
-				</Connector>
-				<Connector>
-					<Id>1725791160520</Id>
-					<Name><![CDATA[connector19]]></Name>
-					<X>265</X><Y>-115</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<SourceEmbeddedObjectReference>
-						<PackageName><![CDATA[optimalproduction]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[VF3_2_Программа_1]]></ItemName>
-					</SourceEmbeddedObjectReference>
-					<SourceConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-						<ClassName><![CDATA[Service]]></ClassName>
-						<ItemName><![CDATA[in]]></ItemName>
-					</SourceConnectableItemReference>
-					<TargetEmbeddedObjectReference>
-						<PackageName><![CDATA[optimalproduction]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[VF3_2]]></ItemName>
-					</TargetEmbeddedObjectReference>
-					<TargetConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-						<ClassName><![CDATA[Service]]></ClassName>
-						<ItemName><![CDATA[out]]></ItemName>
-					</TargetConnectableItemReference>
-					<Points>
-						<Point><X>650</X><Y>330</Y></Point>
-						<Point><X>585</X><Y>330</Y></Point>
-					</Points>
-				</Connector>
-				<Connector>
 					<Id>1725794611041</Id>
 					<Name><![CDATA[connector]]></Name>
-					<X>200</X><Y>153</Y>
+					<X>460</X><Y>430</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -850,7 +784,7 @@
 				<Connector>
 					<Id>1725794635993</Id>
 					<Name><![CDATA[connector1]]></Name>
-					<X>80</X><Y>108</Y>
+					<X>460</X><Y>750</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -876,14 +810,14 @@
 						<ItemName><![CDATA[out]]></ItemName>
 					</TargetConnectableItemReference>
 					<Points>
-						<Point><X>120</X><Y>410</Y></Point>
-						<Point><X>50</X><Y>410</Y></Point>
+						<Point><X>0</X><Y>0</Y></Point>
+						<Point><X>-70</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1725794641114</Id>
 					<Name><![CDATA[connector8]]></Name>
-					<X>130</X><Y>333</Y>
+					<X>390</X><Y>570</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -916,7 +850,7 @@
 				<Connector>
 					<Id>1725794646369</Id>
 					<Name><![CDATA[connector14]]></Name>
-					<X>80</X><Y>-57</Y>
+					<X>550</X><Y>430</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -942,14 +876,14 @@
 						<ItemName><![CDATA[out]]></ItemName>
 					</TargetConnectableItemReference>
 					<Points>
-						<Point><X>210</X><Y>210</Y></Point>
-						<Point><X>160</X><Y>210</Y></Point>
+						<Point><X>0</X><Y>0</Y></Point>
+						<Point><X>-50</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1725794663627</Id>
 					<Name><![CDATA[connector16]]></Name>
-					<X>80</X><Y>108</Y>
+					<X>550</X><Y>750</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -975,14 +909,14 @@
 						<ItemName><![CDATA[out]]></ItemName>
 					</TargetConnectableItemReference>
 					<Points>
-						<Point><X>210</X><Y>410</Y></Point>
-						<Point><X>160</X><Y>410</Y></Point>
+						<Point><X>0</X><Y>0</Y></Point>
+						<Point><X>-50</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1725794668459</Id>
 					<Name><![CDATA[connector27]]></Name>
-					<X>240</X><Y>333</Y>
+					<X>500</X><Y>570</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1013,42 +947,9 @@
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1725796778859</Id>
-					<Name><![CDATA[connector12]]></Name>
-					<X>955</X><Y>215</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<SourceEmbeddedObjectReference>
-						<PackageName><![CDATA[optimalproduction]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[VF3_2_Программа_1]]></ItemName>
-					</SourceEmbeddedObjectReference>
-					<SourceConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-						<ClassName><![CDATA[Service]]></ClassName>
-						<ItemName><![CDATA[out]]></ItemName>
-					</SourceConnectableItemReference>
-					<TargetEmbeddedObjectReference>
-						<PackageName><![CDATA[optimalproduction]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[hold1]]></ItemName>
-					</TargetEmbeddedObjectReference>
-					<TargetConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-						<ClassName><![CDATA[Hold]]></ClassName>
-						<ItemName><![CDATA[in]]></ItemName>
-					</TargetConnectableItemReference>
-					<Points>
-						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>60</X><Y>0</Y></Point>
-					</Points>
-				</Connector>
-				<Connector>
 					<Id>1725799692519</Id>
 					<Name><![CDATA[connector35]]></Name>
-					<X>1390</X><Y>155</Y>
+					<X>1370</X><Y>155</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1075,13 +976,13 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>-110</X><Y>0</Y></Point>
+						<Point><X>-90</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1725799774273</Id>
 					<Name><![CDATA[connector36]]></Name>
-					<X>1390</X><Y>235</Y>
+					<X>1370</X><Y>230</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1108,7 +1009,7 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>-110</X><Y>0</Y></Point>
+						<Point><X>-90</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
@@ -1141,13 +1042,13 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>110</X><Y>0</Y></Point>
+						<Point><X>90</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1725803032799</Id>
 					<Name><![CDATA[connector41]]></Name>
-					<X>1280</X><Y>435</Y>
+					<X>1260</X><Y>435</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1180,7 +1081,7 @@
 				<Connector>
 					<Id>1725803065716</Id>
 					<Name><![CDATA[connector42]]></Name>
-					<X>1280</X><Y>515</Y>
+					<X>1260</X><Y>510</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1213,7 +1114,7 @@
 				<Connector>
 					<Id>1725803075935</Id>
 					<Name><![CDATA[connector44]]></Name>
-					<X>1280</X><Y>585</Y>
+					<X>1260</X><Y>585</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1246,7 +1147,7 @@
 				<Connector>
 					<Id>1725804892635</Id>
 					<Name><![CDATA[connector38]]></Name>
-					<X>1510</X><Y>155</Y>
+					<X>1490</X><Y>155</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1279,7 +1180,7 @@
 				<Connector>
 					<Id>1725804939450</Id>
 					<Name><![CDATA[connector39]]></Name>
-					<X>1510</X><Y>235</Y>
+					<X>1490</X><Y>230</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1312,7 +1213,7 @@
 				<Connector>
 					<Id>1725804946403</Id>
 					<Name><![CDATA[connector40]]></Name>
-					<X>1510</X><Y>305</Y>
+					<X>1490</X><Y>305</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1378,7 +1279,7 @@
 				<Connector>
 					<Id>1725806210364</Id>
 					<Name><![CDATA[connector45]]></Name>
-					<X>-40</X><Y>-95</Y>
+					<X>1170</X><Y>230</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1404,8 +1305,8 @@
 						<ItemName><![CDATA[in]]></ItemName>
 					</TargetConnectableItemReference>
 					<Points>
-						<Point><X>1210</X><Y>330</Y></Point>
-						<Point><X>1280</X><Y>330</Y></Point>
+						<Point><X>0</X><Y>0</Y></Point>
+						<Point><X>70</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
@@ -1444,7 +1345,7 @@
 				<Connector>
 					<Id>1725854686535</Id>
 					<Name><![CDATA[connector31]]></Name>
-					<X>300</X><Y>-95</Y>
+					<X>280</X><Y>-95</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1477,7 +1378,7 @@
 				<Connector>
 					<Id>1725854690765</Id>
 					<Name><![CDATA[connector32]]></Name>
-					<X>300</X><Y>-95</Y>
+					<X>280</X><Y>-100</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1510,7 +1411,7 @@
 				<Connector>
 					<Id>1725854693849</Id>
 					<Name><![CDATA[connector33]]></Name>
-					<X>300</X><Y>-95</Y>
+					<X>280</X><Y>-95</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1543,7 +1444,7 @@
 				<Connector>
 					<Id>1725854698361</Id>
 					<Name><![CDATA[connector34]]></Name>
-					<X>1500</X><Y>435</Y>
+					<X>1480</X><Y>435</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1576,7 +1477,7 @@
 				<Connector>
 					<Id>1725854701218</Id>
 					<Name><![CDATA[connector47]]></Name>
-					<X>1500</X><Y>515</Y>
+					<X>1480</X><Y>510</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1609,7 +1510,7 @@
 				<Connector>
 					<Id>1725854703776</Id>
 					<Name><![CDATA[connector48]]></Name>
-					<X>1500</X><Y>585</Y>
+					<X>1480</X><Y>585</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1642,7 +1543,7 @@
 				<Connector>
 					<Id>1725855542921</Id>
 					<Name><![CDATA[connector51]]></Name>
-					<X>1080</X><Y>710</Y>
+					<X>1375</X><Y>750</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1675,7 +1576,7 @@
 				<Connector>
 					<Id>1726563625466</Id>
 					<Name><![CDATA[connector2]]></Name>
-					<X>352</X><Y>153</Y>
+					<X>612</X><Y>430</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1708,7 +1609,7 @@
 				<Connector>
 					<Id>1726563930103</Id>
 					<Name><![CDATA[connector5]]></Name>
-					<X>410</X><Y>153</Y>
+					<X>670</X><Y>430</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1741,7 +1642,7 @@
 				<Connector>
 					<Id>1726563948060</Id>
 					<Name><![CDATA[connector11]]></Name>
-					<X>454</X><Y>173</Y>
+					<X>714</X><Y>450</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1774,7 +1675,7 @@
 				<Connector>
 					<Id>1726563963124</Id>
 					<Name><![CDATA[connector17]]></Name>
-					<X>492</X><Y>193</Y>
+					<X>752</X><Y>470</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1807,7 +1708,7 @@
 				<Connector>
 					<Id>1726564001708</Id>
 					<Name><![CDATA[connector21]]></Name>
-					<X>528</X><Y>213</Y>
+					<X>788</X><Y>490</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1840,7 +1741,7 @@
 				<Connector>
 					<Id>1726564112045</Id>
 					<Name><![CDATA[connector24]]></Name>
-					<X>453</X><Y>353</Y>
+					<X>713</X><Y>590</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1873,7 +1774,7 @@
 				<Connector>
 					<Id>1726564112047</Id>
 					<Name><![CDATA[connector25]]></Name>
-					<X>491</X><Y>373</Y>
+					<X>751</X><Y>610</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1906,7 +1807,7 @@
 				<Connector>
 					<Id>1726564112049</Id>
 					<Name><![CDATA[connector26]]></Name>
-					<X>526</X><Y>393</Y>
+					<X>786</X><Y>630</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1939,7 +1840,7 @@
 				<Connector>
 					<Id>1726564130792</Id>
 					<Name><![CDATA[connector52]]></Name>
-					<X>310</X><Y>333</Y>
+					<X>570</X><Y>570</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1972,7 +1873,7 @@
 				<Connector>
 					<Id>1726564146154</Id>
 					<Name><![CDATA[connector53]]></Name>
-					<X>408</X><Y>518</Y>
+					<X>668</X><Y>750</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2005,7 +1906,7 @@
 				<Connector>
 					<Id>1726564146156</Id>
 					<Name><![CDATA[connector54]]></Name>
-					<X>452</X><Y>538</Y>
+					<X>712</X><Y>770</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2038,7 +1939,7 @@
 				<Connector>
 					<Id>1726564146158</Id>
 					<Name><![CDATA[connector55]]></Name>
-					<X>490</X><Y>558</Y>
+					<X>750</X><Y>790</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2071,7 +1972,7 @@
 				<Connector>
 					<Id>1726564146160</Id>
 					<Name><![CDATA[connector56]]></Name>
-					<X>526</X><Y>578</Y>
+					<X>786</X><Y>810</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2104,7 +2005,7 @@
 				<Connector>
 					<Id>1726564162562</Id>
 					<Name><![CDATA[connector57]]></Name>
-					<X>310</X><Y>518</Y>
+					<X>570</X><Y>750</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2137,7 +2038,7 @@
 				<Connector>
 					<Id>1727243417327</Id>
 					<Name><![CDATA[connector10]]></Name>
-					<X>850</X><Y>285</Y>
+					<X>710</X><Y>265</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2170,7 +2071,7 @@
 				<Connector>
 					<Id>1727243421953</Id>
 					<Name><![CDATA[connector13]]></Name>
-					<X>850</X><Y>370</Y>
+					<X>710</X><Y>350</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2203,7 +2104,7 @@
 				<Connector>
 					<Id>1728356292350</Id>
 					<Name><![CDATA[connector22]]></Name>
-					<X>370</X><Y>333</Y>
+					<X>630</X><Y>570</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2236,7 +2137,7 @@
 				<Connector>
 					<Id>1725806612960</Id>
 					<Name><![CDATA[connector9]]></Name>
-					<X>1080</X><Y>215</Y>
+					<X>1075</X><Y>170</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2269,7 +2170,7 @@
 				<Connector>
 					<Id>1725806604519</Id>
 					<Name><![CDATA[connector6]]></Name>
-					<X>1080</X><Y>155</Y>
+					<X>710</X><Y>170</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2302,7 +2203,7 @@
 				<Connector>
 					<Id>1728362700763</Id>
 					<Name><![CDATA[connector61]]></Name>
-					<X>745</X><Y>285</Y>
+					<X>605</X><Y>265</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2335,7 +2236,7 @@
 				<Connector>
 					<Id>1728362759603</Id>
 					<Name><![CDATA[connector62]]></Name>
-					<X>80</X><Y>0</Y>
+					<X>-60</X><Y>-20</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2368,7 +2269,7 @@
 				<Connector>
 					<Id>1728439865988</Id>
 					<Name><![CDATA[connector23]]></Name>
-					<X>830</X><Y>155</Y>
+					<X>460</X><Y>170</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2401,7 +2302,7 @@
 				<Connector>
 					<Id>1728439887141</Id>
 					<Name><![CDATA[connector28]]></Name>
-					<X>605</X><Y>215</Y>
+					<X>820</X><Y>170</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2432,42 +2333,9 @@
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1728439887143</Id>
-					<Name><![CDATA[connector65]]></Name>
-					<X>680</X><Y>215</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<SourceEmbeddedObjectReference>
-						<PackageName><![CDATA[optimalproduction]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[moveTo1]]></ItemName>
-					</SourceEmbeddedObjectReference>
-					<SourceConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-						<ClassName><![CDATA[MoveTo]]></ClassName>
-						<ItemName><![CDATA[out]]></ItemName>
-					</SourceConnectableItemReference>
-					<TargetEmbeddedObjectReference>
-						<PackageName><![CDATA[optimalproduction]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[СтолПодачи_2]]></ItemName>
-					</TargetEmbeddedObjectReference>
-					<TargetConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-						<ClassName><![CDATA[Service]]></ClassName>
-						<ItemName><![CDATA[in]]></ItemName>
-					</TargetConnectableItemReference>
-					<Points>
-						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>40</X><Y>0</Y></Point>
-					</Points>
-				</Connector>
-				<Connector>
 					<Id>1728440549666</Id>
 					<Name><![CDATA[connector29]]></Name>
-					<X>80</X><Y>0</Y>
+					<X>-60</X><Y>-20</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2500,7 +2368,7 @@
 				<Connector>
 					<Id>1728440549668</Id>
 					<Name><![CDATA[connector66]]></Name>
-					<X>80</X><Y>0</Y>
+					<X>-60</X><Y>-20</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2533,7 +2401,7 @@
 				<Connector>
 					<Id>1728440562718</Id>
 					<Name><![CDATA[connector30]]></Name>
-					<X>80</X><Y>0</Y>
+					<X>-60</X><Y>-20</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2566,7 +2434,7 @@
 				<Connector>
 					<Id>1728440562734</Id>
 					<Name><![CDATA[connector67]]></Name>
-					<X>80</X><Y>0</Y>
+					<X>-60</X><Y>-20</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2599,7 +2467,7 @@
 				<Connector>
 					<Id>1728440668517</Id>
 					<Name><![CDATA[connector15]]></Name>
-					<X>80</X><Y>0</Y>
+					<X>-60</X><Y>-20</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2632,7 +2500,7 @@
 				<Connector>
 					<Id>1728440668519</Id>
 					<Name><![CDATA[connector68]]></Name>
-					<X>80</X><Y>0</Y>
+					<X>-60</X><Y>-20</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2665,7 +2533,7 @@
 				<Connector>
 					<Id>1728440673134</Id>
 					<Name><![CDATA[connector20]]></Name>
-					<X>80</X><Y>0</Y>
+					<X>-60</X><Y>-20</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2698,7 +2566,7 @@
 				<Connector>
 					<Id>1728440673136</Id>
 					<Name><![CDATA[connector69]]></Name>
-					<X>80</X><Y>0</Y>
+					<X>-60</X><Y>-20</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2731,7 +2599,7 @@
 				<Connector>
 					<Id>1728440763781</Id>
 					<Name><![CDATA[connector70]]></Name>
-					<X>795</X><Y>710</Y>
+					<X>1090</X><Y>750</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2764,7 +2632,7 @@
 				<Connector>
 					<Id>1728450708930</Id>
 					<Name><![CDATA[connector71]]></Name>
-					<X>421</X><Y>233</Y>
+					<X>681</X><Y>550</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2790,14 +2658,14 @@
 						<ItemName><![CDATA[out5]]></ItemName>
 					</TargetConnectableItemReference>
 					<Points>
-						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>-49</X><Y>0</Y></Point>
+						<Point><X>0</X><Y>-40</Y></Point>
+						<Point><X>-49</X><Y>-40</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1728450711790</Id>
 					<Name><![CDATA[connector72]]></Name>
-					<X>411</X><Y>413</Y>
+					<X>671</X><Y>650</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2830,7 +2698,7 @@
 				<Connector>
 					<Id>1728450714085</Id>
 					<Name><![CDATA[connector73]]></Name>
-					<X>405</X><Y>598</Y>
+					<X>665</X><Y>830</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2863,7 +2731,7 @@
 				<Connector>
 					<Id>1729043924570</Id>
 					<Name><![CDATA[connector74]]></Name>
-					<X>900</X><Y>155</Y>
+					<X>530</X><Y>170</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2885,7 +2753,7 @@
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[optimalproduction]]></PackageName>
-						<ClassName><![CDATA[MyAgent]]></ClassName>
+						<ClassName><![CDATA[VF3_1]]></ClassName>
 						<ItemName><![CDATA[port1]]></ItemName>
 					</TargetConnectableItemReference>
 					<Points>
@@ -2896,7 +2764,7 @@
 				<Connector>
 					<Id>1729043924572</Id>
 					<Name><![CDATA[connector75]]></Name>
-					<X>1015</X><Y>155</Y>
+					<X>645</X><Y>170</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2918,7 +2786,7 @@
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[optimalproduction]]></PackageName>
-						<ClassName><![CDATA[MyAgent]]></ClassName>
+						<ClassName><![CDATA[VF3_1]]></ClassName>
 						<ItemName><![CDATA[port]]></ItemName>
 					</TargetConnectableItemReference>
 					<Points>
@@ -2929,7 +2797,7 @@
 				<Connector>
 					<Id>1729044789023</Id>
 					<Name><![CDATA[connector3]]></Name>
-					<X>880</X><Y>710</Y>
+					<X>1175</X><Y>750</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2962,7 +2830,7 @@
 				<Connector>
 					<Id>1729044789025</Id>
 					<Name><![CDATA[connector4]]></Name>
-					<X>920</X><Y>710</Y>
+					<X>1215</X><Y>750</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2990,6 +2858,72 @@
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
 						<Point><X>50</X><Y>0</Y></Point>
+					</Points>
+				</Connector>
+				<Connector>
+					<Id>1729149323251</Id>
+					<Name><![CDATA[connector18]]></Name>
+					<X>975</X><Y>170</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<SourceEmbeddedObjectReference>
+						<PackageName><![CDATA[optimalproduction]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[VF3_2]]></ItemName>
+					</SourceEmbeddedObjectReference>
+					<SourceConnectableItemReference>
+						<PackageName><![CDATA[optimalproduction]]></PackageName>
+						<ClassName><![CDATA[VF3_2]]></ClassName>
+						<ItemName><![CDATA[port1]]></ItemName>
+					</SourceConnectableItemReference>
+					<TargetEmbeddedObjectReference>
+						<PackageName><![CDATA[optimalproduction]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[hold1]]></ItemName>
+					</TargetEmbeddedObjectReference>
+					<TargetConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
+						<ClassName><![CDATA[Hold]]></ClassName>
+						<ItemName><![CDATA[in]]></ItemName>
+					</TargetConnectableItemReference>
+					<Points>
+						<Point><X>0</X><Y>0</Y></Point>
+						<Point><X>35</X><Y>0</Y></Point>
+					</Points>
+				</Connector>
+				<Connector>
+					<Id>1729149323253</Id>
+					<Name><![CDATA[connector49]]></Name>
+					<X>895</X><Y>170</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<SourceEmbeddedObjectReference>
+						<PackageName><![CDATA[optimalproduction]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[moveTo1]]></ItemName>
+					</SourceEmbeddedObjectReference>
+					<SourceConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
+						<ClassName><![CDATA[MoveTo]]></ClassName>
+						<ItemName><![CDATA[out]]></ItemName>
+					</SourceConnectableItemReference>
+					<TargetEmbeddedObjectReference>
+						<PackageName><![CDATA[optimalproduction]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[VF3_2]]></ItemName>
+					</TargetEmbeddedObjectReference>
+					<TargetConnectableItemReference>
+						<PackageName><![CDATA[optimalproduction]]></PackageName>
+						<ClassName><![CDATA[VF3_2]]></ClassName>
+						<ItemName><![CDATA[port]]></ItemName>
+					</TargetConnectableItemReference>
+					<Points>
+						<Point><X>0</X><Y>0</Y></Point>
+						<Point><X>40</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 			</Connectors>
@@ -3134,7 +3068,7 @@ hold3.block();
 						</RecurrenceCode>
 						<Condition><![CDATA[false]]></Condition>
 					</Properties>
-					<Action><![CDATA[if (moveTo1.size()==0 & СтолПодачи_2.size()==0 & VF3_2.size()==0 & VF3_2_Программа_1.size()==0)
+					<Action><![CDATA[if (moveTo1.size()==0 & VF3_2.СтолПодачи_2.size()==0 & VF3_2.VF3_2.size()==0 & VF3_2.VF3_2_Программа_1.size()==0)
 {
 Стоп_2.unblock();
 }
@@ -3297,7 +3231,7 @@ return ЗавершениеСборки - НачалоСборки - Время�
 				<EmbeddedObject>
 					<Id>1725788906937</Id>
 					<Name><![CDATA[Деталь_1]]></Name>
-					<X>100</X><Y>143</Y>
+					<X>360</X><Y>420</Y>
 					<Label><X>-5</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3575,7 +3509,7 @@ return ЗавершениеСборки - НачалоСборки - Время�
 				<EmbeddedObject>
 					<Id>1725789336652</Id>
 					<Name><![CDATA[Очередь_1]]></Name>
-					<X>200</X><Y>133</Y>
+					<X>460</X><Y>410</Y>
 					<Label><X>-10</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3777,414 +3711,9 @@ return ЗавершениеСборки - НачалоСборки - Время�
 					</QuantityColumn>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>1725790042071</Id>
-					<Name><![CDATA[СтолПодачи_2]]></Name>
-					<X>720</X><Y>195</Y>
-					<Label><X>-15</X><Y>-10</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>true</ShowLabel>
-					<ActiveObjectClass>
-						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-						<ClassName><![CDATA[Service]]></ClassName>
-					</ActiveObjectClass>
-					<GenericParameterSubstitute>
-						<GenericParameterSubstituteReference>
-							<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-							<ClassName><![CDATA[Service]]></ClassName>
-							<ItemName><![CDATA[1412336243141]]></ItemName>
-						</GenericParameterSubstituteReference>
-						<GenericParameterSubstituteValue Class="CodeValue">
-							<Code><![CDATA[Деталь]]></Code>
-						</GenericParameterSubstituteValue>
-					</GenericParameterSubstitute>
-					<Parameters>
-						<Parameter>
-							<Name><![CDATA[seizeFromOnePool]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[resourceSets]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[resourcePool]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[resourceQuantity]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[seizePolicy]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[queueCapacity]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[1]]></Code>
-							</Value>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[maximumCapacity]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[delayTime]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[sendResources]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[destinationType]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[destinationNode]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[destinationAttractor]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[movingGoHome]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[entityLocationQueue]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[entityLocationDelay]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[priority]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[taskMayPreemptOtherTasks]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[taskPreemptionPolicy]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[terminatedTasksEnter]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[suspendResumeEntities]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[wrapUpTaskPolicyType]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[wrapUpTaskPriority]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[wrapUpTaskPreemptionPolicy]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[customizeResourceChoice]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[resourceChoiceCondition]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[resourceSelectionMode]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[resourceRating]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[resourceComparison]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[enableTimeout]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[timeout]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[enablePreemption]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[restoreEntityLocationOnExit]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[forceStatisticsCollection]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[wrapUpUsageState]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onEnter]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onExitTimeout]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onExitPreempted]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onSeizeUnit]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onEnterDelay]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onAtExit]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onExit]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onTaskTerminated]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onTaskSuspended]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onTaskResumed]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onRemove]]></Name>
-						</Parameter>
-					</Parameters>
-					<ReplicationFlag>false</ReplicationFlag>
-					<Replication Class="CodeValue">
-						<Code><![CDATA[100]]></Code>
-					</Replication>
-					<CollectionType>ARRAY_LIST_BASED</CollectionType>
-					<InitialLocationType>AT_ANIMATION_POSITION</InitialLocationType>
-					<XCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</XCode>
-					<YCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</YCode>
-					<ZCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</ZCode>
-					<ColumnCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</ColumnCode>
-					<RowCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</RowCode>
-					<LatitudeCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</LatitudeCode>
-					<LongitudeCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</LongitudeCode>
-					<LocationNameCode Class="CodeValue">
-						<Code><![CDATA[""]]></Code>
-					</LocationNameCode>
-					<InitializationType>SPECIFIED_NUMBER</InitializationType>
-					<InitializationDatabaseTableQuery>
-						<TableReference>
-						</TableReference>
-					</InitializationDatabaseTableQuery>
-					<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>
-					<QuantityColumn>
-					</QuantityColumn>
-				</EmbeddedObject>
-				<EmbeddedObject>
-					<Id>1725790072958</Id>
-					<Name><![CDATA[VF3_2]]></Name>
-					<X>810</X><Y>195</Y>
-					<Label><X>-1</X><Y>-10</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>true</ShowLabel>
-					<ActiveObjectClass>
-						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-						<ClassName><![CDATA[Service]]></ClassName>
-					</ActiveObjectClass>
-					<GenericParameterSubstitute>
-						<GenericParameterSubstituteReference>
-							<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-							<ClassName><![CDATA[Service]]></ClassName>
-							<ItemName><![CDATA[1412336243141]]></ItemName>
-						</GenericParameterSubstituteReference>
-						<GenericParameterSubstituteValue Class="CodeValue">
-							<Code><![CDATA[Деталь]]></Code>
-						</GenericParameterSubstituteValue>
-					</GenericParameterSubstitute>
-					<Parameters>
-						<Parameter>
-							<Name><![CDATA[seizeFromOnePool]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[resourceSets]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[resourcePool]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[resourceQuantity]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[seizePolicy]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[queueCapacity]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[1]]></Code>
-							</Value>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[maximumCapacity]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[delayTime]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[sendResources]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[destinationType]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[destinationNode]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[destinationAttractor]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[movingGoHome]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[entityLocationQueue]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[entityLocationDelay]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[priority]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[taskMayPreemptOtherTasks]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[taskPreemptionPolicy]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[terminatedTasksEnter]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[suspendResumeEntities]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[wrapUpTaskPolicyType]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[wrapUpTaskPriority]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[wrapUpTaskPreemptionPolicy]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[customizeResourceChoice]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[resourceChoiceCondition]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[resourceSelectionMode]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[resourceRating]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[resourceComparison]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[enableTimeout]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[timeout]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[enablePreemption]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[restoreEntityLocationOnExit]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[forceStatisticsCollection]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[wrapUpUsageState]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onEnter]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[agent.pr1=true;]]></Code>
-							</Value>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onExitTimeout]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onExitPreempted]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onSeizeUnit]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onEnterDelay]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onAtExit]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onExit]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onTaskTerminated]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onTaskSuspended]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onTaskResumed]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onRemove]]></Name>
-						</Parameter>
-					</Parameters>
-					<ReplicationFlag>false</ReplicationFlag>
-					<Replication Class="CodeValue">
-						<Code><![CDATA[100]]></Code>
-					</Replication>
-					<CollectionType>ARRAY_LIST_BASED</CollectionType>
-					<InitialLocationType>AT_ANIMATION_POSITION</InitialLocationType>
-					<XCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</XCode>
-					<YCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</YCode>
-					<ZCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</ZCode>
-					<ColumnCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</ColumnCode>
-					<RowCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</RowCode>
-					<LatitudeCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</LatitudeCode>
-					<LongitudeCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</LongitudeCode>
-					<LocationNameCode Class="CodeValue">
-						<Code><![CDATA[""]]></Code>
-					</LocationNameCode>
-					<InitializationType>SPECIFIED_NUMBER</InitializationType>
-					<InitializationDatabaseTableQuery>
-						<TableReference>
-						</TableReference>
-					</InitializationDatabaseTableQuery>
-					<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>
-					<QuantityColumn>
-					</QuantityColumn>
-				</EmbeddedObject>
-				<EmbeddedObject>
 					<Id>1725790390414</Id>
 					<Name><![CDATA[Стоп_1]]></Name>
-					<X>290</X><Y>143</Y>
+					<X>550</X><Y>420</Y>
 					<Label><X>-10</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4262,7 +3791,7 @@ return ЗавершениеСборки - НачалоСборки - Время�
 				<EmbeddedObject>
 					<Id>1725790431416</Id>
 					<Name><![CDATA[VM3_1]]></Name>
-					<X>850</X><Y>265</Y>
+					<X>710</X><Y>245</Y>
 					<Label><X>-1</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4671,7 +4200,7 @@ return ЗавершениеСборки - НачалоСборки - Время�
 				<EmbeddedObject>
 					<Id>1725791056344</Id>
 					<Name><![CDATA[VM3_1_Переналадка_2]]></Name>
-					<X>1240</X><Y>215</Y>
+					<X>1240</X><Y>210</Y>
 					<Label><X>-35</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -5079,211 +4608,9 @@ return ЗавершениеСборки - НачалоСборки - Время�
 					</QuantityColumn>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>1725791149226</Id>
-					<Name><![CDATA[VF3_2_Программа_1]]></Name>
-					<X>915</X><Y>195</Y>
-					<Label><X>-35</X><Y>-10</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>true</ShowLabel>
-					<ActiveObjectClass>
-						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-						<ClassName><![CDATA[Service]]></ClassName>
-					</ActiveObjectClass>
-					<GenericParameterSubstitute>
-						<GenericParameterSubstituteReference>
-							<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-							<ClassName><![CDATA[Service]]></ClassName>
-							<ItemName><![CDATA[1412336243141]]></ItemName>
-						</GenericParameterSubstituteReference>
-					</GenericParameterSubstitute>
-					<Parameters>
-						<Parameter>
-							<Name><![CDATA[seizeFromOnePool]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[resourceSets]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[resourcePool]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[resourceQuantity]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[seizePolicy]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[queueCapacity]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[1]]></Code>
-							</Value>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[maximumCapacity]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[delayTime]]></Name>
-							<Value Class="CodeUnitValue">
-								<Code><![CDATA[t2]]></Code>
-								<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
-							</Value>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[sendResources]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[destinationType]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[destinationNode]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[destinationAttractor]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[movingGoHome]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[entityLocationQueue]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[entityLocationDelay]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[priority]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[taskMayPreemptOtherTasks]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[taskPreemptionPolicy]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[terminatedTasksEnter]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[suspendResumeEntities]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[wrapUpTaskPolicyType]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[wrapUpTaskPriority]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[wrapUpTaskPreemptionPolicy]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[customizeResourceChoice]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[resourceChoiceCondition]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[resourceSelectionMode]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[resourceRating]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[resourceComparison]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[enableTimeout]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[timeout]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[enablePreemption]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[restoreEntityLocationOnExit]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[forceStatisticsCollection]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[wrapUpUsageState]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onEnter]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onExitTimeout]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onExitPreempted]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onSeizeUnit]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onEnterDelay]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onAtExit]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onExit]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onTaskTerminated]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onTaskSuspended]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onTaskResumed]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onRemove]]></Name>
-						</Parameter>
-					</Parameters>
-					<ReplicationFlag>false</ReplicationFlag>
-					<Replication Class="CodeValue">
-						<Code><![CDATA[100]]></Code>
-					</Replication>
-					<CollectionType>ARRAY_LIST_BASED</CollectionType>
-					<InitialLocationType>AT_ANIMATION_POSITION</InitialLocationType>
-					<XCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</XCode>
-					<YCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</YCode>
-					<ZCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</ZCode>
-					<ColumnCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</ColumnCode>
-					<RowCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</RowCode>
-					<LatitudeCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</LatitudeCode>
-					<LongitudeCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</LongitudeCode>
-					<LocationNameCode Class="CodeValue">
-						<Code><![CDATA[""]]></Code>
-					</LocationNameCode>
-					<InitializationType>SPECIFIED_NUMBER</InitializationType>
-					<InitializationDatabaseTableQuery>
-						<TableReference>
-						</TableReference>
-					</InitializationDatabaseTableQuery>
-					<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>
-					<QuantityColumn>
-					</QuantityColumn>
-				</EmbeddedObject>
-				<EmbeddedObject>
 					<Id>1725793727631</Id>
 					<Name><![CDATA[Деталь_2]]></Name>
-					<X>100</X><Y>323</Y>
+					<X>360</X><Y>560</Y>
 					<Label><X>-5</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -5561,7 +4888,7 @@ return ЗавершениеСборки - НачалоСборки - Время�
 				<EmbeddedObject>
 					<Id>1725793730293</Id>
 					<Name><![CDATA[Деталь_3]]></Name>
-					<X>100</X><Y>508</Y>
+					<X>360</X><Y>740</Y>
 					<Label><X>-5</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -5839,7 +5166,7 @@ return ЗавершениеСборки - НачалоСборки - Время�
 				<EmbeddedObject>
 					<Id>1725794118164</Id>
 					<Name><![CDATA[VM3_2]]></Name>
-					<X>850</X><Y>350</Y>
+					<X>710</X><Y>330</Y>
 					<Label><X>-1</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -6043,7 +5370,7 @@ return ЗавершениеСборки - НачалоСборки - Время�
 				<EmbeddedObject>
 					<Id>1725794118213</Id>
 					<Name><![CDATA[VM3_2_Переналадка_1]]></Name>
-					<X>1240</X><Y>415</Y>
+					<X>1220</X><Y>415</Y>
 					<Label><X>-35</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -6245,7 +5572,7 @@ return ЗавершениеСборки - НачалоСборки - Время�
 				<EmbeddedObject>
 					<Id>1725794118262</Id>
 					<Name><![CDATA[VM3_2_Переналадка_2]]></Name>
-					<X>1240</X><Y>495</Y>
+					<X>1220</X><Y>490</Y>
 					<Label><X>-35</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -6447,7 +5774,7 @@ return ЗавершениеСборки - НачалоСборки - Время�
 				<EmbeddedObject>
 					<Id>1725794118311</Id>
 					<Name><![CDATA[VM3_2_Переналадка_3]]></Name>
-					<X>1240</X><Y>565</Y>
+					<X>1220</X><Y>565</Y>
 					<Label><X>-35</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -6649,7 +5976,7 @@ return ЗавершениеСборки - НачалоСборки - Время�
 				<EmbeddedObject>
 					<Id>1725794631546</Id>
 					<Name><![CDATA[Очередь_2]]></Name>
-					<X>200</X><Y>313</Y>
+					<X>460</X><Y>550</Y>
 					<Label><X>-10</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -6853,7 +6180,7 @@ return ЗавершениеСборки - НачалоСборки - Время�
 				<EmbeddedObject>
 					<Id>1725794635947</Id>
 					<Name><![CDATA[Очередь_3]]></Name>
-					<X>200</X><Y>498</Y>
+					<X>460</X><Y>730</Y>
 					<Label><X>-10</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -7057,7 +6384,7 @@ return ЗавершениеСборки - НачалоСборки - Время�
 				<EmbeddedObject>
 					<Id>1725794660746</Id>
 					<Name><![CDATA[Стоп_2]]></Name>
-					<X>290</X><Y>323</Y>
+					<X>550</X><Y>560</Y>
 					<Label><X>-10</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -7135,7 +6462,7 @@ return ЗавершениеСборки - НачалоСборки - Время�
 				<EmbeddedObject>
 					<Id>1725794663620</Id>
 					<Name><![CDATA[Стоп_3]]></Name>
-					<X>290</X><Y>508</Y>
+					<X>550</X><Y>740</Y>
 					<Label><X>-10</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -7213,7 +6540,7 @@ return ЗавершениеСборки - НачалоСборки - Время�
 				<EmbeddedObject>
 					<Id>1725796745795</Id>
 					<Name><![CDATA[hold]]></Name>
-					<X>1015</X><Y>145</Y>
+					<X>645</X><Y>160</Y>
 					<Label><X>-10</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -7294,7 +6621,7 @@ return ЗавершениеСборки - НачалоСборки - Время�
 				<EmbeddedObject>
 					<Id>1725796763127</Id>
 					<Name><![CDATA[hold1]]></Name>
-					<X>1015</X><Y>205</Y>
+					<X>1010</X><Y>160</Y>
 					<Label><X>-10</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -7309,6 +6636,9 @@ return ЗавершениеСборки - НачалоСборки - Время�
 							<ClassName><![CDATA[Hold]]></ClassName>
 							<ItemName><![CDATA[1412336242940]]></ItemName>
 						</GenericParameterSubstituteReference>
+						<GenericParameterSubstituteValue Class="CodeValue">
+							<Code><![CDATA[Деталь]]></Code>
+						</GenericParameterSubstituteValue>
 					</GenericParameterSubstitute>
 					<Parameters>
 						<Parameter>
@@ -7372,7 +6702,7 @@ return ЗавершениеСборки - НачалоСборки - Время�
 				<EmbeddedObject>
 					<Id>1725799689815</Id>
 					<Name><![CDATA[VM3_1_Программа_1]]></Name>
-					<X>1390</X><Y>135</Y>
+					<X>1370</X><Y>135</Y>
 					<Label><X>-30</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -7581,7 +6911,7 @@ pr2=1;]]></Code>
 				<EmbeddedObject>
 					<Id>1725799768626</Id>
 					<Name><![CDATA[VM3_1_Программа_2]]></Name>
-					<X>1390</X><Y>215</Y>
+					<X>1370</X><Y>210</Y>
 					<Label><X>-30</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -7790,7 +7120,7 @@ pr2=2;]]></Code>
 				<EmbeddedObject>
 					<Id>1725799781366</Id>
 					<Name><![CDATA[VM3_1_Программа_3]]></Name>
-					<X>1390</X><Y>285</Y>
+					<X>1370</X><Y>285</Y>
 					<Label><X>-40</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -7999,7 +7329,7 @@ pr2=3;]]></Code>
 				<EmbeddedObject>
 					<Id>1725803021520</Id>
 					<Name><![CDATA[VM3_2_Программа_1]]></Name>
-					<X>1370</X><Y>415</Y>
+					<X>1350</X><Y>415</Y>
 					<Label><X>-35</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -8208,7 +7538,7 @@ pr=1;]]></Code>
 				<EmbeddedObject>
 					<Id>1725803050328</Id>
 					<Name><![CDATA[VM3_2_Программа_2]]></Name>
-					<X>1370</X><Y>495</Y>
+					<X>1350</X><Y>490</Y>
 					<Label><X>-35</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -8414,7 +7744,7 @@ pr=2;]]></Code>
 				<EmbeddedObject>
 					<Id>1725803054145</Id>
 					<Name><![CDATA[VM3_2_Программа_3]]></Name>
-					<X>1370</X><Y>565</Y>
+					<X>1350</X><Y>565</Y>
 					<Label><X>-35</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -8620,7 +7950,7 @@ pr=3;]]></Code>
 				<EmbeddedObject>
 					<Id>1725804889245</Id>
 					<Name><![CDATA[exit]]></Name>
-					<X>1510</X><Y>145</Y>
+					<X>1490</X><Y>145</Y>
 					<Label><X>-10</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -8687,7 +8017,7 @@ last_pr1=1;]]></Code>
 				<EmbeddedObject>
 					<Id>1725804937886</Id>
 					<Name><![CDATA[exit1]]></Name>
-					<X>1510</X><Y>225</Y>
+					<X>1490</X><Y>220</Y>
 					<Label><X>-10</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -8754,7 +8084,7 @@ last_pr1=2;]]></Code>
 				<EmbeddedObject>
 					<Id>1725804944348</Id>
 					<Name><![CDATA[exit2]]></Name>
-					<X>1510</X><Y>295</Y>
+					<X>1490</X><Y>295</Y>
 					<Label><X>-10</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -8823,7 +8153,7 @@ last_pr1=3;
 				<EmbeddedObject>
 					<Id>1725806147158</Id>
 					<Name><![CDATA[exit3]]></Name>
-					<X>1005</X><Y>275</Y>
+					<X>865</X><Y>255</Y>
 					<Label><X>-10</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -9056,7 +8386,7 @@ p1=0;
 				<EmbeddedObject>
 					<Id>1725806209223</Id>
 					<Name><![CDATA[enter1]]></Name>
-					<X>1150</X><Y>225</Y>
+					<X>1150</X><Y>220</Y>
 					<Label><X>-5</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -9360,7 +8690,7 @@ p1 = 180;
 				<EmbeddedObject>
 					<Id>1725806599972</Id>
 					<Name><![CDATA[exit6]]></Name>
-					<X>1080</X><Y>145</Y>
+					<X>710</X><Y>160</Y>
 					<Label><X>-10</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -9429,7 +8759,7 @@ p1 = 180;
 				<EmbeddedObject>
 					<Id>1725806611412</Id>
 					<Name><![CDATA[exit7]]></Name>
-					<X>1080</X><Y>205</Y>
+					<X>1075</X><Y>160</Y>
 					<Label><X>-10</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -9452,8 +8782,7 @@ p1 = 180;
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[enter10.take(agent);
-]]></Code>
+								<Code><![CDATA[enter10.take(agent);]]></Code>
 							</Value>
 						</Parameter>
 					</Parameters>
@@ -9499,7 +8828,7 @@ p1 = 180;
 				<EmbeddedObject>
 					<Id>1725854601298</Id>
 					<Name><![CDATA[exit8]]></Name>
-					<X>1009</X><Y>360</Y>
+					<X>869</X><Y>340</Y>
 					<Label><X>-10</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -9576,7 +8905,7 @@ hold1.unblock();]]></Code>
 				<EmbeddedObject>
 					<Id>1725854684486</Id>
 					<Name><![CDATA[enter3]]></Name>
-					<X>1150</X><Y>425</Y>
+					<X>1130</X><Y>425</Y>
 					<Label><X>-5</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -9731,7 +9060,7 @@ p2=0;
 				<EmbeddedObject>
 					<Id>1725854688342</Id>
 					<Name><![CDATA[enter4]]></Name>
-					<X>1150</X><Y>505</Y>
+					<X>1130</X><Y>500</Y>
 					<Label><X>-5</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -9887,7 +9216,7 @@ p2=30;
 				<EmbeddedObject>
 					<Id>1725854692063</Id>
 					<Name><![CDATA[enter5]]></Name>
-					<X>1150</X><Y>575</Y>
+					<X>1130</X><Y>575</Y>
 					<Label><X>-5</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -10036,7 +9365,7 @@ p2 = 180;
 				<EmbeddedObject>
 					<Id>1725854697038</Id>
 					<Name><![CDATA[exit11]]></Name>
-					<X>1500</X><Y>425</Y>
+					<X>1480</X><Y>425</Y>
 					<Label><X>-10</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -10106,7 +9435,7 @@ last_pr2=1;]]></Code>
 				<EmbeddedObject>
 					<Id>1725854699552</Id>
 					<Name><![CDATA[exit12]]></Name>
-					<X>1500</X><Y>505</Y>
+					<X>1480</X><Y>500</Y>
 					<Label><X>-10</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -10176,7 +9505,7 @@ last_pr2=2;]]></Code>
 				<EmbeddedObject>
 					<Id>1725854702518</Id>
 					<Name><![CDATA[exit13]]></Name>
-					<X>1500</X><Y>575</Y>
+					<X>1480</X><Y>575</Y>
 					<Label><X>-10</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -10245,7 +9574,7 @@ last_pr2=3;
 				<EmbeddedObject>
 					<Id>1725855362460</Id>
 					<Name><![CDATA[enter6]]></Name>
-					<X>725</X><Y>700</Y>
+					<X>1020</X><Y>740</Y>
 					<Label><X>-5</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -10377,7 +9706,7 @@ last_pr2=3;
 				<EmbeddedObject>
 					<Id>1725855523571</Id>
 					<Name><![CDATA[Хранилище]]></Name>
-					<X>970</X><Y>690</Y>
+					<X>1265</X><Y>730</Y>
 					<Label><X>-10</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -10597,7 +9926,7 @@ last_pr2=3;
 				<EmbeddedObject>
 					<Id>1725855541462</Id>
 					<Name><![CDATA[Выход]]></Name>
-					<X>1080</X><Y>700</Y>
+					<X>1375</X><Y>740</Y>
 					<Label><X>-10</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -10663,7 +9992,7 @@ last_pr2=3;
 				<EmbeddedObject>
 					<Id>1726535946984</Id>
 					<Name><![CDATA[enter7]]></Name>
-					<X>810</X><Y>145</Y>
+					<X>440</X><Y>160</Y>
 					<Label><X>-5</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -10810,7 +10139,7 @@ t1 = 35;
 				<EmbeddedObject>
 					<Id>1726535954224</Id>
 					<Name><![CDATA[enter8]]></Name>
-					<X>585</X><Y>205</Y>
+					<X>800</X><Y>160</Y>
 					<Label><X>-5</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -10956,7 +10285,7 @@ t2 = 35;
 				<EmbeddedObject>
 					<Id>1726535957968</Id>
 					<Name><![CDATA[enter9]]></Name>
-					<X>583</X><Y>275</Y>
+					<X>443</X><Y>255</Y>
 					<Label><X>-5</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -11088,7 +10417,7 @@ t2 = 35;
 				<EmbeddedObject>
 					<Id>1726536014503</Id>
 					<Name><![CDATA[enter10]]></Name>
-					<X>584</X><Y>360</Y>
+					<X>444</X><Y>340</Y>
 					<Label><X>-5</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -11220,7 +10549,7 @@ t2 = 35;
 				<EmbeddedObject>
 					<Id>1726563323585</Id>
 					<Name><![CDATA[selectOutput5]]></Name>
-					<X>342</X><Y>143</Y>
+					<X>602</X><Y>420</Y>
 					<Label><X>-30</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -11355,7 +10684,7 @@ if ( НачалоСборки == 0)
 				<EmbeddedObject>
 					<Id>1726563928557</Id>
 					<Name><![CDATA[exit4]]></Name>
-					<X>410</X><Y>143</Y>
+					<X>670</X><Y>420</Y>
 					<Label><X>-10</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -11421,7 +10750,7 @@ if ( НачалоСборки == 0)
 				<EmbeddedObject>
 					<Id>1726563943934</Id>
 					<Name><![CDATA[exit5]]></Name>
-					<X>454</X><Y>163</Y>
+					<X>714</X><Y>440</Y>
 					<Label><X>-10</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -11487,7 +10816,7 @@ if ( НачалоСборки == 0)
 				<EmbeddedObject>
 					<Id>1726563960054</Id>
 					<Name><![CDATA[exit9]]></Name>
-					<X>492</X><Y>183</Y>
+					<X>752</X><Y>460</Y>
 					<Label><X>-2</X><Y>-8</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -11553,7 +10882,7 @@ if ( НачалоСборки == 0)
 				<EmbeddedObject>
 					<Id>1726563998550</Id>
 					<Name><![CDATA[exit10]]></Name>
-					<X>528</X><Y>203</Y>
+					<X>788</X><Y>480</Y>
 					<Label><X>-2</X><Y>-8</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -11619,7 +10948,7 @@ if ( НачалоСборки == 0)
 				<EmbeddedObject>
 					<Id>1726564112004</Id>
 					<Name><![CDATA[selectOutput6]]></Name>
-					<X>340</X><Y>323</Y>
+					<X>600</X><Y>560</Y>
 					<Label><X>-30</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -11745,7 +11074,7 @@ if ( НачалоСборки == 0)
 				<EmbeddedObject>
 					<Id>1726564112025</Id>
 					<Name><![CDATA[exit14]]></Name>
-					<X>408</X><Y>323</Y>
+					<X>668</X><Y>560</Y>
 					<Label><X>-10</X><Y>-7</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -11769,7 +11098,7 @@ if ( НачалоСборки == 0)
 {
 enter7.take(agent);
 }
-else if (moveTo1.size()==0 & СтолПодачи_2.size()==0 & VF3_2.size()==0 & VF3_2_Программа_1.size()==0)
+else if (moveTo1.size()==0 & VF3_2.СтолПодачи_2.size()==0 & VF3_2.VF3_2.size()==0 & VF3_2.VF3_2_Программа_1.size()==0)
 {
 enter8.take(agent);
 }]]></Code>
@@ -11818,7 +11147,7 @@ enter8.take(agent);
 				<EmbeddedObject>
 					<Id>1726564112030</Id>
 					<Name><![CDATA[exit15]]></Name>
-					<X>453</X><Y>343</Y>
+					<X>713</X><Y>580</Y>
 					<Label><X>-7</X><Y>-7</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -11884,7 +11213,7 @@ enter8.take(agent);
 				<EmbeddedObject>
 					<Id>1726564112035</Id>
 					<Name><![CDATA[exit16]]></Name>
-					<X>491</X><Y>363</Y>
+					<X>751</X><Y>600</Y>
 					<Label><X>-2</X><Y>-8</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -11950,7 +11279,7 @@ enter8.take(agent);
 				<EmbeddedObject>
 					<Id>1726564112040</Id>
 					<Name><![CDATA[exit17]]></Name>
-					<X>526</X><Y>383</Y>
+					<X>786</X><Y>620</Y>
 					<Label><X>-2</X><Y>-8</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -12016,7 +11345,7 @@ enter8.take(agent);
 				<EmbeddedObject>
 					<Id>1726564146115</Id>
 					<Name><![CDATA[selectOutput7]]></Name>
-					<X>340</X><Y>508</Y>
+					<X>600</X><Y>740</Y>
 					<Label><X>-30</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -12142,7 +11471,7 @@ enter8.take(agent);
 				<EmbeddedObject>
 					<Id>1726564146136</Id>
 					<Name><![CDATA[exit18]]></Name>
-					<X>408</X><Y>508</Y>
+					<X>668</X><Y>740</Y>
 					<Label><X>-10</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -12208,7 +11537,7 @@ enter8.take(agent);
 				<EmbeddedObject>
 					<Id>1726564146141</Id>
 					<Name><![CDATA[exit19]]></Name>
-					<X>452</X><Y>528</Y>
+					<X>712</X><Y>760</Y>
 					<Label><X>-10</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -12274,7 +11603,7 @@ enter8.take(agent);
 				<EmbeddedObject>
 					<Id>1726564146146</Id>
 					<Name><![CDATA[exit20]]></Name>
-					<X>490</X><Y>548</Y>
+					<X>750</X><Y>780</Y>
 					<Label><X>-2</X><Y>-8</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -12340,7 +11669,7 @@ enter8.take(agent);
 				<EmbeddedObject>
 					<Id>1726564146151</Id>
 					<Name><![CDATA[exit21]]></Name>
-					<X>526</X><Y>568</Y>
+					<X>786</X><Y>800</Y>
 					<Label><X>-2</X><Y>-8</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -12406,7 +11735,7 @@ enter8.take(agent);
 				<EmbeddedObject>
 					<Id>1727243416290</Id>
 					<Name><![CDATA[hold2]]></Name>
-					<X>790</X><Y>275</Y>
+					<X>650</X><Y>255</Y>
 					<Label><X>-5</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -12484,7 +11813,7 @@ enter8.take(agent);
 				<EmbeddedObject>
 					<Id>1727243419984</Id>
 					<Name><![CDATA[hold3]]></Name>
-					<X>790</X><Y>360</Y>
+					<X>650</X><Y>340</Y>
 					<Label><X>-5</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -12562,7 +11891,7 @@ enter8.take(agent);
 				<EmbeddedObject>
 					<Id>1728362688272</Id>
 					<Name><![CDATA[СтолПодачи_3]]></Name>
-					<X>705</X><Y>265</Y>
+					<X>565</X><Y>245</Y>
 					<Label><X>-15</X><Y>-9</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -12679,7 +12008,7 @@ enter8.take(agent);
 				<EmbeddedObject>
 					<Id>1728362752496</Id>
 					<Name><![CDATA[СтолПодачи_4]]></Name>
-					<X>710</X><Y>350</Y>
+					<X>570</X><Y>330</Y>
 					<Label><X>-15</X><Y>-9</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -12796,7 +12125,7 @@ enter8.take(agent);
 				<EmbeddedObject>
 					<Id>1728439864574</Id>
 					<Name><![CDATA[moveTo]]></Name>
-					<X>860</X><Y>135</Y>
+					<X>490</X><Y>150</Y>
 					<Label><X>-10</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -12959,7 +12288,7 @@ enter8.take(agent);
 				<EmbeddedObject>
 					<Id>1728439882129</Id>
 					<Name><![CDATA[moveTo1]]></Name>
-					<X>640</X><Y>195</Y>
+					<X>855</X><Y>150</Y>
 					<Label><X>-10</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -13122,7 +12451,7 @@ enter8.take(agent);
 				<EmbeddedObject>
 					<Id>1728440545094</Id>
 					<Name><![CDATA[moveTo2]]></Name>
-					<X>640</X><Y>265</Y>
+					<X>500</X><Y>245</Y>
 					<Label><X>-10</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -13285,7 +12614,7 @@ enter8.take(agent);
 				<EmbeddedObject>
 					<Id>1728440556141</Id>
 					<Name><![CDATA[moveTo3]]></Name>
-					<X>640</X><Y>350</Y>
+					<X>500</X><Y>330</Y>
 					<Label><X>-10</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -13448,7 +12777,7 @@ enter8.take(agent);
 				<EmbeddedObject>
 					<Id>1728440666427</Id>
 					<Name><![CDATA[moveTo4]]></Name>
-					<X>930</X><Y>265</Y>
+					<X>790</X><Y>245</Y>
 					<Label><X>-10</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -13611,7 +12940,7 @@ enter8.take(agent);
 				<EmbeddedObject>
 					<Id>1728440670111</Id>
 					<Name><![CDATA[moveTo5]]></Name>
-					<X>930</X><Y>350</Y>
+					<X>790</X><Y>330</Y>
 					<Label><X>-10</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -13777,7 +13106,7 @@ enter8.take(agent);
 				<EmbeddedObject>
 					<Id>1728440756164</Id>
 					<Name><![CDATA[moveTo6]]></Name>
-					<X>795</X><Y>690</Y>
+					<X>1090</X><Y>730</Y>
 					<Label><X>-10</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -13943,7 +13272,7 @@ enter8.take(agent);
 				<EmbeddedObject>
 					<Id>1728450707461</Id>
 					<Name><![CDATA[exit22]]></Name>
-					<X>421</X><Y>223</Y>
+					<X>681</X><Y>500</Y>
 					<Label><X>-9</X><Y>25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -14006,7 +13335,7 @@ enter8.take(agent);
 				<EmbeddedObject>
 					<Id>1728450710978</Id>
 					<Name><![CDATA[exit23]]></Name>
-					<X>411</X><Y>403</Y>
+					<X>671</X><Y>640</Y>
 					<Label><X>-9</X><Y>27</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -14069,7 +13398,7 @@ enter8.take(agent);
 				<EmbeddedObject>
 					<Id>1728450712902</Id>
 					<Name><![CDATA[exit24]]></Name>
-					<X>405</X><Y>588</Y>
+					<X>665</X><Y>820</Y>
 					<Label><X>-5</X><Y>28</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -14132,19 +13461,19 @@ enter8.take(agent);
 				<EmbeddedObject>
 					<Id>1729043923966</Id>
 					<Name><![CDATA[VF3_1]]></Name>
-					<X>935</X><Y>135</Y>
-					<Label><X>0</X><Y>-15</Y></Label>
+					<X>565</X><Y>150</Y>
+					<Label><X>3</X><Y>-9</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>true</ShowLabel>
 					<ActiveObjectClass>
 						<PackageName><![CDATA[optimalproduction]]></PackageName>
-						<ClassName><![CDATA[MyAgent]]></ClassName>
+						<ClassName><![CDATA[VF3_1]]></ClassName>
 					</ActiveObjectClass>
 					<GenericParameterSubstitute>
 						<GenericParameterSubstituteReference>
 							<PackageName><![CDATA[optimalproduction]]></PackageName>
-							<ClassName><![CDATA[MyAgent]]></ClassName>
+							<ClassName><![CDATA[VF3_1]]></ClassName>
 							<ItemName><![CDATA[1729043922329]]></ItemName>
 						</GenericParameterSubstituteReference>
 					</GenericParameterSubstitute>
@@ -14231,8 +13560,8 @@ enter8.take(agent);
 				<EmbeddedObject>
 					<Id>1729044788520</Id>
 					<Name><![CDATA[Сборка]]></Name>
-					<X>880</X><Y>690</Y>
-					<Label><X>0</X><Y>-15</Y></Label>
+					<X>1175</X><Y>730</Y>
+					<Label><X>-2</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>true</ShowLabel>
@@ -14295,6 +13624,98 @@ chartTVS.addDataItem(di, "К " + Комплект, red);
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[сборкаКонтейнера_quantity3]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[1]]></Code>
+							</Value>
+						</Parameter>
+					</Parameters>
+					<ReplicationFlag>false</ReplicationFlag>
+					<Replication Class="CodeValue">
+						<Code><![CDATA[100]]></Code>
+					</Replication>
+					<CollectionType>ARRAY_LIST_BASED</CollectionType>
+					<InEnvironment>true</InEnvironment>	
+					<InitialLocationType>AT_ANIMATION_POSITION</InitialLocationType>
+					<XCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</XCode>
+					<YCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</YCode>
+					<ZCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</ZCode>
+					<ColumnCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</ColumnCode>
+					<RowCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</RowCode>
+					<LatitudeCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</LatitudeCode>
+					<LongitudeCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</LongitudeCode>
+					<LocationNameCode Class="CodeValue">
+						<Code><![CDATA[""]]></Code>
+					</LocationNameCode>
+					<InitializationType>SPECIFIED_NUMBER</InitializationType>
+					<InitializationDatabaseTableQuery>
+						<TableReference>
+						</TableReference>
+					</InitializationDatabaseTableQuery>
+					<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>
+					<QuantityColumn>
+					</QuantityColumn>
+				</EmbeddedObject>
+				<EmbeddedObject>
+					<Id>1729149322647</Id>
+					<Name><![CDATA[VF3_2]]></Name>
+					<X>935</X><Y>150</Y>
+					<Label><X>2</X><Y>-7</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<ActiveObjectClass>
+						<PackageName><![CDATA[optimalproduction]]></PackageName>
+						<ClassName><![CDATA[VF3_2]]></ClassName>
+					</ActiveObjectClass>
+					<GenericParameterSubstitute>
+						<GenericParameterSubstituteReference>
+							<PackageName><![CDATA[optimalproduction]]></PackageName>
+							<ClassName><![CDATA[VF3_2]]></ClassName>
+							<ItemName><![CDATA[1729149308876]]></ItemName>
+						</GenericParameterSubstituteReference>
+					</GenericParameterSubstitute>
+					<Parameters>
+						<Parameter>
+							<Name><![CDATA[vF3_2_onEnter]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.pr1=true;]]></Code>
+							</Value>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[vF3_2_queueCapacity]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[1]]></Code>
+							</Value>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[vF3_2_Программа_1_delayTime]]></Name>
+							<Value Class="CodeUnitValue">
+								<Code><![CDATA[t2]]></Code>
+								<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
+							</Value>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[vF3_2_Программа_1_queueCapacity]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[1]]></Code>
+							</Value>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[столПодачи_2_queueCapacity]]></Name>
 							<Value Class="CodeValue">
 								<Code><![CDATA[1]]></Code>
 							</Value>
@@ -14588,7 +14009,7 @@ chartTVS.addDataItem(di, "К " + Комплект, red);
 					<LineMaterial>null</LineMaterial>
 					<FillMaterial>null</FillMaterial>
 					<LineStyle>DASHED</LineStyle>
-					<AttractorsLayout>random</AttractorsLayout>
+					<AttractorsLayout>arranged</AttractorsLayout>
 					<Sloped>false</Sloped>
 					<Slope>
 						<Id>1728435617204</Id>
@@ -14723,7 +14144,7 @@ chartTVS.addDataItem(di, "К " + Комплект, red);
 					<LineMaterial>null</LineMaterial>
 					<FillMaterial>null</FillMaterial>
 					<LineStyle>DASHED</LineStyle>
-					<AttractorsLayout>random</AttractorsLayout>
+					<AttractorsLayout>arranged</AttractorsLayout>
 					<Sloped>false</Sloped>
 					<Slope>
 						<Id>1728435641455</Id>
@@ -14858,7 +14279,7 @@ chartTVS.addDataItem(di, "К " + Комплект, red);
 					<LineMaterial>null</LineMaterial>
 					<FillMaterial>null</FillMaterial>
 					<LineStyle>DASHED</LineStyle>
-					<AttractorsLayout>random</AttractorsLayout>
+					<AttractorsLayout>arranged</AttractorsLayout>
 					<Sloped>false</Sloped>
 					<Slope>
 						<Id>1728435649258</Id>
@@ -16653,7 +16074,7 @@ chartTVS.addDataItem(di, "К " + Комплект, red);
 					<ImageFiles>
 						<ImageResourceReference>
 							<PackageName><![CDATA[optimalproduction]]></PackageName>
-							<ClassName><![CDATA[image.jpg]]></ClassName>
+							<ClassName><![CDATA[background.jpg]]></ClassName>
 						</ImageResourceReference>
 					</ImageFiles>
 					<OriginalSize>false</OriginalSize>
@@ -16671,7 +16092,7 @@ chartTVS.addDataItem(di, "К " + Комплект, red);
 					<Z>0</Z>
 					<Rotation>0.0</Rotation>
 					<Color>-16711936</Color>
-					<Text><![CDATA[Health]]></Text>
+					<Text><![CDATA[Optimal]]></Text>
 					<Font>
 						<Name>SansSerif</Name>
 						<Size>43</Size>
@@ -16682,7 +16103,7 @@ chartTVS.addDataItem(di, "К " + Комплект, red);
 				<Rectangle>
 					<Id>1729042171052</Id>
 					<Name><![CDATA[rectangle3]]></Name>
-					<X>360</X><Y>80</Y>
+					<X>340</X><Y>80</Y>
 					<Label><X>10</X><Y>10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -16696,7 +16117,7 @@ chartTVS.addDataItem(di, "К " + Комплект, red);
 					<LineColor>-16777216</LineColor>
 					<LineMaterial>null</LineMaterial>
 					<LineStyle>SOLID</LineStyle>
-					<Width>1200</Width>
+					<Width>1220</Width>
 					<Height>780</Height>
 					<Rotation>0.0</Rotation>
 					<FillColor>-1</FillColor>
@@ -16705,7 +16126,7 @@ chartTVS.addDataItem(di, "К " + Комплект, red);
 				<Line>
 					<Id>1729042171054</Id>
 					<Name><![CDATA[line6]]></Name>
-					<X>330</X><Y>860</Y>
+					<X>300</X><Y>860</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -16833,7 +16254,7 @@ getEngine().setRealTimeMode(false);]]></OnClickCode>
 					<Z>0</Z>
 					<Rotation>0.0</Rotation>
 					<Color>-1</Color>
-					<Text><![CDATA[trees]]></Text>
+					<Text><![CDATA[production]]></Text>
 					<Font>
 						<Name>SansSerif</Name>
 						<Size>43</Size>
@@ -16858,7 +16279,7 @@ getEngine().setRealTimeMode(false);]]></OnClickCode>
 					<LineColor>-1</LineColor>
 					<LineMaterial>null</LineMaterial>
 					<LineStyle>SOLID</LineStyle>
-					<Width>260</Width>
+					<Width>210</Width>
 					<Height>40</Height>
 					<Rotation>0.0</Rotation>
 					<FillColor/>
@@ -16867,7 +16288,7 @@ getEngine().setRealTimeMode(false);]]></OnClickCode>
 				<Text>
 					<Id>1729042171192</Id>
 					<Name><![CDATA[text50]]></Name>
-					<X>280</X><Y>196</Y>
+					<X>230</X><Y>196</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -17036,7 +16457,7 @@ getEngine().setRealTimeMode(false);]]></OnClickCode>
 				<Rectangle>
 					<Id>1729042170645</Id>
 					<Name><![CDATA[rectangle9]]></Name>
-					<X>300</X><Y>190</Y>
+					<X>270</X><Y>190</Y>
 					<Label><X>10</X><Y>10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -17518,7 +16939,7 @@ getEngine().setRealTimeMode(false);]]></OnClickCode>
 		<!--   =========   Active Object Class   ========  -->
 		<ActiveObjectClass>
 			<Id>1729043922323</Id>
-			<Name><![CDATA[MyAgent]]></Name>
+			<Name><![CDATA[VF3_1]]></Name>
 			<Generic>false</Generic>
 			<GenericParameter>
 				<Id>1729043922329</Id>
@@ -17830,7 +17251,7 @@ T agent - the current agent.
 					<ShowLabel>false</ShowLabel>
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[optimalproduction]]></PackageName>
-						<ClassName><![CDATA[MyAgent]]></ClassName>
+						<ClassName><![CDATA[VF3_1]]></ClassName>
 						<ItemName><![CDATA[VF3_1]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
@@ -17840,7 +17261,7 @@ T agent - the current agent.
 					</SourceConnectableItemReference>
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[optimalproduction]]></PackageName>
-						<ClassName><![CDATA[MyAgent]]></ClassName>
+						<ClassName><![CDATA[VF3_1]]></ClassName>
 						<ItemName><![CDATA[СтолПодачи_1]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
@@ -17863,7 +17284,7 @@ T agent - the current agent.
 					<ShowLabel>false</ShowLabel>
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[optimalproduction]]></PackageName>
-						<ClassName><![CDATA[MyAgent]]></ClassName>
+						<ClassName><![CDATA[VF3_1]]></ClassName>
 						<ItemName><![CDATA[VF3_1_Программа_1]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
@@ -17873,7 +17294,7 @@ T agent - the current agent.
 					</SourceConnectableItemReference>
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[optimalproduction]]></PackageName>
-						<ClassName><![CDATA[MyAgent]]></ClassName>
+						<ClassName><![CDATA[VF3_1]]></ClassName>
 						<ItemName><![CDATA[VF3_1]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
@@ -17896,7 +17317,7 @@ T agent - the current agent.
 					<ShowLabel>false</ShowLabel>
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[optimalproduction]]></PackageName>
-						<ClassName><![CDATA[MyAgent]]></ClassName>
+						<ClassName><![CDATA[VF3_1]]></ClassName>
 						<ItemName><![CDATA[СтолПодачи_1]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
@@ -17922,7 +17343,7 @@ T agent - the current agent.
 					<ShowLabel>false</ShowLabel>
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[optimalproduction]]></PackageName>
-						<ClassName><![CDATA[MyAgent]]></ClassName>
+						<ClassName><![CDATA[VF3_1]]></ClassName>
 						<ItemName><![CDATA[VF3_1_Программа_1]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
@@ -18606,31 +18027,32 @@ T agent - the current agent.
 					<Z>0</Z>
 					<LevelVisibility>DIM_NON_CURRENT</LevelVisibility>
 
-
-				</Level>
-				<Rectangle>
-					<Id>1729043923960</Id>
-					<Name><![CDATA[rectangle]]></Name>
+			<Presentation>
+				<Image>
+					<Id>1729046963703</Id>
+					<Name><![CDATA[image]]></Name>
 					<X>490</X><Y>85</Y>
-					<Label><X>10</X><Y>10</Y></Label>
+					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<OnClickCode><![CDATA[return true;]]></OnClickCode>
 					<EmbeddedIcon>true</EmbeddedIcon>
 					<Z>0</Z>
-					<ZHeight>10</ZHeight>
-					<LineWidth>1</LineWidth>
-					<LineColor/>
-					<LineMaterial>null</LineMaterial>
-					<LineStyle>SOLID</LineStyle>
 					<Width>40</Width>
 					<Height>31</Height>
 					<Rotation>0.0</Rotation>
-					<FillColor>-14774017</FillColor>
-					<FillMaterial>null</FillMaterial>
-				</Rectangle>
+					<ImageFiles>
+						<ImageResourceReference>
+							<PackageName><![CDATA[optimalproduction]]></PackageName>
+							<ClassName><![CDATA[machine.png]]></ClassName>
+						</ImageResourceReference>
+					</ImageFiles>
+					<OriginalSize>false</OriginalSize>
+				</Image>
+			</Presentation>
+
+				</Level>
 			</Presentation>
 
 		</ActiveObjectClass>
@@ -19853,29 +19275,6 @@ T agent - the agent.
 			</EmbeddedObjects>
 
 			<Presentation>
-				<Rectangle>
-					<Id>1729044788502</Id>
-					<Name><![CDATA[rectangle]]></Name>
-					<X>480</X><Y>85</Y>
-					<Label><X>10</X><Y>10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<OnClickCode><![CDATA[return true;]]></OnClickCode>
-					<EmbeddedIcon>true</EmbeddedIcon>
-					<Z>0</Z>
-					<ZHeight>10</ZHeight>
-					<LineWidth>1</LineWidth>
-					<LineColor/>
-					<LineMaterial>null</LineMaterial>
-					<LineStyle>SOLID</LineStyle>
-					<Width>40</Width>
-					<Height>31</Height>
-					<Rotation>0.0</Rotation>
-					<FillColor>-14774017</FillColor>
-					<FillMaterial>null</FillMaterial>
-				</Rectangle>
 				<Level>
 					<Id>1729044784712</Id>
 					<Name><![CDATA[level]]></Name>
@@ -19890,23 +19289,1102 @@ T agent - the agent.
 
 			<Presentation>
 				<Image>
-					<Id>1729045248307</Id>
-					<Name><![CDATA[image]]></Name>
-					<X>496</X><Y>130</Y>
+					<Id>1729046736793</Id>
+					<Name><![CDATA[image1]]></Name>
+					<X>480</X><Y>85</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<EmbeddedIcon>false</EmbeddedIcon>
+					<EmbeddedIcon>true</EmbeddedIcon>
 					<Z>0</Z>
-					<Width>19.567</Width>
-					<Height>19.567</Height>
+					<Width>40</Width>
+					<Height>31</Height>
 					<Rotation>0.0</Rotation>
 					<ImageFiles>
 						<ImageResourceReference>
 							<PackageName><![CDATA[optimalproduction]]></PackageName>
-							<ClassName><![CDATA[teamwork.png]]></ClassName>
+							<ClassName><![CDATA[assembly.png]]></ClassName>
+						</ImageResourceReference>
+					</ImageFiles>
+					<OriginalSize>false</OriginalSize>
+				</Image>
+			</Presentation>
+
+				</Level>
+			</Presentation>
+
+		</ActiveObjectClass>
+		<!--   =========   Active Object Class   ========  -->
+		<ActiveObjectClass>
+			<Id>1729149308870</Id>
+			<Name><![CDATA[VF3_2]]></Name>
+			<Generic>false</Generic>
+			<GenericParameter>
+				<Id>1729149308876</Id>
+				<Name><![CDATA[1729149308876]]></Name>
+				<GenericParameterValue Class="CodeValue">
+					<Code><![CDATA[T extends Agent]]></Code>
+				</GenericParameterValue>
+				<GenericParameterLabel><![CDATA[Параметр настройки:]]></GenericParameterLabel>
+			</GenericParameter>
+			<FlowChartsUsage>ENTITY</FlowChartsUsage>
+			<SamplesToKeep>100</SamplesToKeep>
+			<LimitNumberOfArrayElements>false</LimitNumberOfArrayElements>
+			<ElementsLimitValue>100</ElementsLimitValue>
+			<MakeDefaultViewArea>true</MakeDefaultViewArea>
+			<SceneGridColor/>
+			<SceneBackgroundColor/>
+			<SceneSkybox>null</SceneSkybox>
+			<AgentProperties>
+				<EnvironmentDefinesInitialLocation>true</EnvironmentDefinesInitialLocation>
+				<RotateAnimationTowardsMovement>true</RotateAnimationTowardsMovement>
+				<RotateAnimationVertically>false</RotateAnimationVertically>
+				<VelocityCode Class="CodeUnitValue">
+					<Code><![CDATA[10]]></Code>
+					<Unit Class="SpeedUnits"><![CDATA[MPS]]></Unit>
+				</VelocityCode>
+				<PhysicalLength Class="CodeUnitValue">
+					<Code><![CDATA[1]]></Code>
+					<Unit Class="LengthUnits"><![CDATA[METER]]></Unit>
+				</PhysicalLength>
+				<PhysicalWidth Class="CodeUnitValue">
+					<Code><![CDATA[1]]></Code>
+					<Unit Class="LengthUnits"><![CDATA[METER]]></Unit>
+				</PhysicalWidth>
+				<PhysicalHeight Class="CodeUnitValue">
+					<Code><![CDATA[1]]></Code>
+					<Unit Class="LengthUnits"><![CDATA[METER]]></Unit>
+				</PhysicalHeight>
+			</AgentProperties>
+			<EnvironmentProperties>
+					<EnableSteps>false</EnableSteps>
+					<StepDurationCode Class="CodeUnitValue">
+						<Code><![CDATA[1.0]]></Code>
+						<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+					</StepDurationCode>
+					<SpaceType>CONTINUOUS</SpaceType>
+					<WidthCode><![CDATA[500]]></WidthCode>
+					<HeightCode><![CDATA[500]]></HeightCode>
+					<ZHeightCode><![CDATA[0]]></ZHeightCode>
+					<ColumnsCountCode><![CDATA[100]]></ColumnsCountCode>
+					<RowsCountCode><![CDATA[100]]></RowsCountCode>
+					<NeigborhoodType>MOORE</NeigborhoodType>
+					<LayoutType>USER_DEF</LayoutType>
+					<LayoutTypeApplyOnStartup>true</LayoutTypeApplyOnStartup>
+					<NetworkType>USER_DEF</NetworkType>
+					<NetworkTypeApplyOnStartup>true</NetworkTypeApplyOnStartup>
+					<ConnectionsPerAgentCode><![CDATA[2]]></ConnectionsPerAgentCode>
+					<ConnectionsRangeCode><![CDATA[50]]></ConnectionsRangeCode>
+					<NeighborLinkFractionCode><![CDATA[0.95]]></NeighborLinkFractionCode>
+					<MCode><![CDATA[10]]></MCode>
+			</EnvironmentProperties>
+			<DatasetsCreationProperties>
+				<AutoCreate>true</AutoCreate>
+					<OccurrenceAtTime>true</OccurrenceAtTime>
+					<OccurrenceDate>1729152000000</OccurrenceDate>
+					<OccurrenceTime Class="CodeUnitValue">
+						<Code><![CDATA[0]]></Code>
+						<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+					</OccurrenceTime>
+					<RecurrenceCode Class="CodeUnitValue">
+						<Code><![CDATA[1]]></Code>
+						<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+					</RecurrenceCode>
+			</DatasetsCreationProperties>
+			<ScaleRuler>
+				<Id>1729149308873</Id>
+				<Name><![CDATA[scale]]></Name>
+				<X>0</X><Y>-150</Y>
+				<PublicFlag>false</PublicFlag>
+				<PresentationFlag>false</PresentationFlag>
+				<ShowLabel>false</ShowLabel>
+				<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+				<Length>100</Length>
+				<Rotation>0</Rotation>
+				<ScaleType>BASED_ON_LENGTH</ScaleType>
+				<ModelLength>10</ModelLength>
+				<LengthUnits>METER</LengthUnits>
+				<Scale>10</Scale>
+				<InheritedFromParentAgentType>true</InheritedFromParentAgentType>
+			</ScaleRuler>
+			<CurrentLevel>1729149308877</CurrentLevel>
+			<ConnectionsId>1729149308871</ConnectionsId>
+			<Variables>
+				<Variable Class="Parameter">
+					<Id>1729149322706</Id>
+					<Name><![CDATA[vF3_2_onEnter]]></Name>
+					<Description><![CDATA[Code executed when the agent enters the object.
+
+<b>Parameter:</b> 
+T agent - the agent.  
+]]></Description>
+					<X>50</X><Y>50</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="false" ModificatorType="ACTION">
+						<Type><![CDATA[void]]></Type>
+						<UnitType><![CDATA[NONE]]></UnitType>
+						<SdArray>false</SdArray>
+						<MethodArgument>
+							<Name><![CDATA[agent]]></Name>
+							<Type><![CDATA[Деталь]]></Type>
+						</MethodArgument>
+						<ParameterEditor>
+							<Id>1729149322704</Id>
+							<Name><![CDATA[null]]></Name>
+							<Label><![CDATA[vF3_2, При входе]]></Label>
+							<EditorContolType>TEXT_BOX</EditorContolType>
+							<MinSliderValue><![CDATA[0]]></MinSliderValue>
+							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
+							<DelimeterType>NO_DELIMETER</DelimeterType>
+						</ParameterEditor>
+					</Properties>                 
+				</Variable>
+				<Variable Class="Parameter">
+					<Id>1729149322749</Id>
+					<Name><![CDATA[vF3_2_queueCapacity]]></Name>
+					<Description><![CDATA[[visible if Maximum capacity is not chosen] The capacity of the embedded queue.
+]]></Description>
+					<X>50</X><Y>100</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="false" ModificatorType="STATIC">
+						<Type><![CDATA[int]]></Type>
+						<UnitType><![CDATA[NONE]]></UnitType>
+						<SdArray>false</SdArray>
+						<ParameterEditor>
+							<Id>1729149322747</Id>
+							<Name><![CDATA[null]]></Name>
+							<Label><![CDATA[vF3_2, Вместимость очереди]]></Label>
+							<EditorContolType>TEXT_BOX</EditorContolType>
+							<MinSliderValue><![CDATA[0]]></MinSliderValue>
+							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
+							<DelimeterType>NO_DELIMETER</DelimeterType>
+						</ParameterEditor>
+					</Properties>                 
+				</Variable>
+				<Variable Class="Parameter">
+					<Id>1729149322858</Id>
+					<Name><![CDATA[vF3_2_Программа_1_delayTime]]></Name>
+					<Description><![CDATA[Expression evaluated to obtain the delay time for the agent. 
+
+<b>Parameter:</b> 
+T agent - the current agent. 
+]]></Description>
+					<X>50</X><Y>150</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="false" ModificatorType="DYNAMIC">
+						<Type><![CDATA[]]></Type>
+						<UnitType><![CDATA[TIME]]></UnitType>
+						<UnitOfValue Class="TimeUnits"><![CDATA[MINUTE]]></UnitOfValue>
+						<SdArray>false</SdArray>
+						<DefaultValue Class="CodeUnitValue">
+							<Code><![CDATA[]]></Code>
+							<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+						</DefaultValue>
+						<MethodArgument>
+							<Name><![CDATA[agent]]></Name>
+							<Type><![CDATA[Деталь]]></Type>
+						</MethodArgument>
+						<ParameterEditor>
+							<Id>1729149322856</Id>
+							<Name><![CDATA[null]]></Name>
+							<Label><![CDATA[vF3_2_Программа_1, Время задержки]]></Label>
+							<EditorContolType>UNIT_EDITOR</EditorContolType>
+							<MinSliderValue><![CDATA[0]]></MinSliderValue>
+							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
+							<DelimeterType>NO_DELIMETER</DelimeterType>
+						</ParameterEditor>
+					</Properties>                 
+				</Variable>
+				<Variable Class="Parameter">
+					<Id>1729149322948</Id>
+					<Name><![CDATA[vF3_2_Программа_1_queueCapacity]]></Name>
+					<Description><![CDATA[[visible if Maximum capacity is not chosen] The capacity of the embedded queue.
+]]></Description>
+					<X>50</X><Y>200</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="false" ModificatorType="STATIC">
+						<Type><![CDATA[int]]></Type>
+						<UnitType><![CDATA[NONE]]></UnitType>
+						<SdArray>false</SdArray>
+						<ParameterEditor>
+							<Id>1729149322946</Id>
+							<Name><![CDATA[null]]></Name>
+							<Label><![CDATA[vF3_2_Программа_1, Вместимость очереди]]></Label>
+							<EditorContolType>TEXT_BOX</EditorContolType>
+							<MinSliderValue><![CDATA[0]]></MinSliderValue>
+							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
+							<DelimeterType>NO_DELIMETER</DelimeterType>
+						</ParameterEditor>
+					</Properties>                 
+				</Variable>
+				<Variable Class="Parameter">
+					<Id>1729149323147</Id>
+					<Name><![CDATA[столПодачи_2_queueCapacity]]></Name>
+					<Description><![CDATA[[visible if Maximum capacity is not chosen] The capacity of the embedded queue.
+]]></Description>
+					<X>50</X><Y>250</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="false" ModificatorType="STATIC">
+						<Type><![CDATA[int]]></Type>
+						<UnitType><![CDATA[NONE]]></UnitType>
+						<SdArray>false</SdArray>
+						<ParameterEditor>
+							<Id>1729149323145</Id>
+							<Name><![CDATA[null]]></Name>
+							<Label><![CDATA[столПодачи_2, Вместимость очереди]]></Label>
+							<EditorContolType>TEXT_BOX</EditorContolType>
+							<MinSliderValue><![CDATA[0]]></MinSliderValue>
+							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
+							<DelimeterType>NO_DELIMETER</DelimeterType>
+						</ParameterEditor>
+					</Properties>                 
+				</Variable>
+			</Variables>
+			<Ports>
+				<Port>
+					<Id>1729149322535</Id>
+					<Name><![CDATA[port]]></Name>
+					<X>490</X><Y>100</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<IncomingMessageType><![CDATA[Object]]></IncomingMessageType>
+					<OutgoingMessageType><![CDATA[Object]]></OutgoingMessageType>
+					<CustomPort><![CDATA[false]]></CustomPort>
+				</Port>
+				<Port>
+					<Id>1729149322541</Id>
+					<Name><![CDATA[port1]]></Name>
+					<X>530</X><Y>100</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<IncomingMessageType><![CDATA[Object]]></IncomingMessageType>
+					<OutgoingMessageType><![CDATA[Object]]></OutgoingMessageType>
+					<CustomPort><![CDATA[false]]></CustomPort>
+				</Port>
+			</Ports>
+			<Connectors>
+				<Connector>
+					<Id>1729149322443</Id>
+					<Name><![CDATA[connector7]]></Name>
+					<X>490</X><Y>320</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<SourceEmbeddedObjectReference>
+						<PackageName><![CDATA[optimalproduction]]></PackageName>
+						<ClassName><![CDATA[VF3_2]]></ClassName>
+						<ItemName><![CDATA[VF3_2]]></ItemName>
+					</SourceEmbeddedObjectReference>
+					<SourceConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
+						<ClassName><![CDATA[Service]]></ClassName>
+						<ItemName><![CDATA[in]]></ItemName>
+					</SourceConnectableItemReference>
+					<TargetEmbeddedObjectReference>
+						<PackageName><![CDATA[optimalproduction]]></PackageName>
+						<ClassName><![CDATA[VF3_2]]></ClassName>
+						<ItemName><![CDATA[СтолПодачи_2]]></ItemName>
+					</TargetEmbeddedObjectReference>
+					<TargetConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
+						<ClassName><![CDATA[Service]]></ClassName>
+						<ItemName><![CDATA[out]]></ItemName>
+					</TargetConnectableItemReference>
+					<Points>
+						<Point><X>0</X><Y>0</Y></Point>
+						<Point><X>-50</X><Y>0</Y></Point>
+					</Points>
+				</Connector>
+				<Connector>
+					<Id>1729149322445</Id>
+					<Name><![CDATA[connector19]]></Name>
+					<X>-55</X><Y>-10</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<SourceEmbeddedObjectReference>
+						<PackageName><![CDATA[optimalproduction]]></PackageName>
+						<ClassName><![CDATA[VF3_2]]></ClassName>
+						<ItemName><![CDATA[VF3_2_Программа_1]]></ItemName>
+					</SourceEmbeddedObjectReference>
+					<SourceConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
+						<ClassName><![CDATA[Service]]></ClassName>
+						<ItemName><![CDATA[in]]></ItemName>
+					</SourceConnectableItemReference>
+					<TargetEmbeddedObjectReference>
+						<PackageName><![CDATA[optimalproduction]]></PackageName>
+						<ClassName><![CDATA[VF3_2]]></ClassName>
+						<ItemName><![CDATA[VF3_2]]></ItemName>
+					</TargetEmbeddedObjectReference>
+					<TargetConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
+						<ClassName><![CDATA[Service]]></ClassName>
+						<ItemName><![CDATA[out]]></ItemName>
+					</TargetConnectableItemReference>
+					<Points>
+						<Point><X>650</X><Y>330</Y></Point>
+						<Point><X>585</X><Y>330</Y></Point>
+					</Points>
+				</Connector>
+				<Connector>
+					<Id>1729149322495</Id>
+					<Name><![CDATA[connector]]></Name>
+					<X>635</X><Y>320</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<SourceEmbeddedObjectReference>
+						<PackageName><![CDATA[optimalproduction]]></PackageName>
+						<ClassName><![CDATA[VF3_2]]></ClassName>
+						<ItemName><![CDATA[VF3_2_Программа_1]]></ItemName>
+					</SourceEmbeddedObjectReference>
+					<SourceConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
+						<ClassName><![CDATA[Service]]></ClassName>
+						<ItemName><![CDATA[out]]></ItemName>
+					</SourceConnectableItemReference>
+					<TargetId>1729149322541</TargetId>
+					<Points>
+						<Point><X>0</X><Y>0</Y></Point>
+						<Point><X>19</X><Y>0</Y></Point>
+						<Point><X>19</X><Y>-220</Y></Point>
+						<Point><X>0</X><Y>0</Y></Point>
+					</Points>
+				</Connector>
+				<Connector>
+					<Id>1729149322513</Id>
+					<Name><![CDATA[connector1]]></Name>
+					<X>400</X><Y>320</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<SourceEmbeddedObjectReference>
+						<PackageName><![CDATA[optimalproduction]]></PackageName>
+						<ClassName><![CDATA[VF3_2]]></ClassName>
+						<ItemName><![CDATA[СтолПодачи_2]]></ItemName>
+					</SourceEmbeddedObjectReference>
+					<SourceConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
+						<ClassName><![CDATA[Service]]></ClassName>
+						<ItemName><![CDATA[in]]></ItemName>
+					</SourceConnectableItemReference>
+					<TargetId>1729149322535</TargetId>
+					<Points>
+						<Point><X>0</X><Y>0</Y></Point>
+						<Point><X>-20</X><Y>0</Y></Point>
+						<Point><X>-20</X><Y>-220</Y></Point>
+						<Point><X>0</X><Y>0</Y></Point>
+					</Points>
+				</Connector>
+			</Connectors>
+			<AgentLinks>
+				<AgentLink>
+					<Id>1729149308871</Id>
+					<Name><![CDATA[connections]]></Name>
+					<X>50</X><Y>-50</Y>
+					<Label><X>15</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<HandleReceiveInConnections>false</HandleReceiveInConnections>
+					<AgentLinkType>COLLECTION_OF_LINKS</AgentLinkType>
+					<AgentLinkBidirectional>true</AgentLinkBidirectional>
+					<MessageType><![CDATA[Object]]></MessageType>
+					<LineStyle>SOLID</LineStyle>
+					<LineWidth>1</LineWidth>
+					<LineColor>-16777216</LineColor>
+					<LineZOrder>UNDER_AGENTS</LineZOrder>
+					<LineArrow>NONE</LineArrow>
+					<LineArrowPosition>END</LineArrowPosition>
+				</AgentLink>
+			</AgentLinks>
+
+			<ContainerLinks>
+				<ContainerLink>
+					<Id>1729149323257</Id>
+					<Name><![CDATA[main]]></Name>
+					<X>50</X><Y>-100</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<ActiveObjectClass>
+						<PackageName><![CDATA[optimalproduction]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+					</ActiveObjectClass>
+				</ContainerLink>
+			</ContainerLinks>
+			<EmbeddedObjects>
+				<EmbeddedObject>
+					<Id>1729149322298</Id>
+					<Name><![CDATA[СтолПодачи_2]]></Name>
+					<X>400</X><Y>300</Y>
+					<Label><X>-15</X><Y>-10</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<ActiveObjectClass>
+						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
+						<ClassName><![CDATA[Service]]></ClassName>
+					</ActiveObjectClass>
+					<GenericParameterSubstitute>
+						<GenericParameterSubstituteReference>
+							<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
+							<ClassName><![CDATA[Service]]></ClassName>
+							<ItemName><![CDATA[1412336243141]]></ItemName>
+						</GenericParameterSubstituteReference>
+						<GenericParameterSubstituteValue Class="CodeValue">
+							<Code><![CDATA[Деталь]]></Code>
+						</GenericParameterSubstituteValue>
+					</GenericParameterSubstitute>
+					<Parameters>
+						<Parameter>
+							<Name><![CDATA[seizeFromOnePool]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[resourceSets]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[resourcePool]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[resourceQuantity]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[seizePolicy]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[queueCapacity]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[столПодачи_2_queueCapacity]]></Code>
+							</Value>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[maximumCapacity]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[delayTime]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[sendResources]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[destinationType]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[destinationNode]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[destinationAttractor]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[movingGoHome]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[entityLocationQueue]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[entityLocationDelay]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[priority]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[taskMayPreemptOtherTasks]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[taskPreemptionPolicy]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[terminatedTasksEnter]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[suspendResumeEntities]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[wrapUpTaskPolicyType]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[wrapUpTaskPriority]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[wrapUpTaskPreemptionPolicy]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[customizeResourceChoice]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[resourceChoiceCondition]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[resourceSelectionMode]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[resourceRating]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[resourceComparison]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[enableTimeout]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[timeout]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[enablePreemption]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[restoreEntityLocationOnExit]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[forceStatisticsCollection]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[wrapUpUsageState]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onEnter]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onExitTimeout]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onExitPreempted]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onSeizeUnit]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onEnterDelay]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onAtExit]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onExit]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onTaskTerminated]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onTaskSuspended]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onTaskResumed]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onRemove]]></Name>
+						</Parameter>
+					</Parameters>
+					<ReplicationFlag>false</ReplicationFlag>
+					<Replication Class="CodeValue">
+						<Code><![CDATA[100]]></Code>
+					</Replication>
+					<CollectionType>ARRAY_LIST_BASED</CollectionType>
+					<InitialLocationType>AT_ANIMATION_POSITION</InitialLocationType>
+					<XCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</XCode>
+					<YCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</YCode>
+					<ZCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</ZCode>
+					<ColumnCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</ColumnCode>
+					<RowCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</RowCode>
+					<LatitudeCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</LatitudeCode>
+					<LongitudeCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</LongitudeCode>
+					<LocationNameCode Class="CodeValue">
+						<Code><![CDATA[""]]></Code>
+					</LocationNameCode>
+					<InitializationType>SPECIFIED_NUMBER</InitializationType>
+					<InitializationDatabaseTableQuery>
+						<TableReference>
+						</TableReference>
+					</InitializationDatabaseTableQuery>
+					<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>
+					<QuantityColumn>
+					</QuantityColumn>
+				</EmbeddedObject>
+				<EmbeddedObject>
+					<Id>1729149322347</Id>
+					<Name><![CDATA[VF3_2]]></Name>
+					<X>490</X><Y>300</Y>
+					<Label><X>-1</X><Y>-10</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<ActiveObjectClass>
+						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
+						<ClassName><![CDATA[Service]]></ClassName>
+					</ActiveObjectClass>
+					<GenericParameterSubstitute>
+						<GenericParameterSubstituteReference>
+							<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
+							<ClassName><![CDATA[Service]]></ClassName>
+							<ItemName><![CDATA[1412336243141]]></ItemName>
+						</GenericParameterSubstituteReference>
+						<GenericParameterSubstituteValue Class="CodeValue">
+							<Code><![CDATA[Деталь]]></Code>
+						</GenericParameterSubstituteValue>
+					</GenericParameterSubstitute>
+					<Parameters>
+						<Parameter>
+							<Name><![CDATA[seizeFromOnePool]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[resourceSets]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[resourcePool]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[resourceQuantity]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[seizePolicy]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[queueCapacity]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[vF3_2_queueCapacity]]></Code>
+							</Value>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[maximumCapacity]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[delayTime]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[sendResources]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[destinationType]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[destinationNode]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[destinationAttractor]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[movingGoHome]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[entityLocationQueue]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[entityLocationDelay]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[priority]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[taskMayPreemptOtherTasks]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[taskPreemptionPolicy]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[terminatedTasksEnter]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[suspendResumeEntities]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[wrapUpTaskPolicyType]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[wrapUpTaskPriority]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[wrapUpTaskPreemptionPolicy]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[customizeResourceChoice]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[resourceChoiceCondition]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[resourceSelectionMode]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[resourceRating]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[resourceComparison]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[enableTimeout]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[timeout]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[enablePreemption]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[restoreEntityLocationOnExit]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[forceStatisticsCollection]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[wrapUpUsageState]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onEnter]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[vF3_2_onEnter(agent)]]></Code>
+							</Value>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onExitTimeout]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onExitPreempted]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onSeizeUnit]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onEnterDelay]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onAtExit]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onExit]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onTaskTerminated]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onTaskSuspended]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onTaskResumed]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onRemove]]></Name>
+						</Parameter>
+					</Parameters>
+					<ReplicationFlag>false</ReplicationFlag>
+					<Replication Class="CodeValue">
+						<Code><![CDATA[100]]></Code>
+					</Replication>
+					<CollectionType>ARRAY_LIST_BASED</CollectionType>
+					<InitialLocationType>AT_ANIMATION_POSITION</InitialLocationType>
+					<XCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</XCode>
+					<YCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</YCode>
+					<ZCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</ZCode>
+					<ColumnCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</ColumnCode>
+					<RowCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</RowCode>
+					<LatitudeCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</LatitudeCode>
+					<LongitudeCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</LongitudeCode>
+					<LocationNameCode Class="CodeValue">
+						<Code><![CDATA[""]]></Code>
+					</LocationNameCode>
+					<InitializationType>SPECIFIED_NUMBER</InitializationType>
+					<InitializationDatabaseTableQuery>
+						<TableReference>
+						</TableReference>
+					</InitializationDatabaseTableQuery>
+					<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>
+					<QuantityColumn>
+					</QuantityColumn>
+				</EmbeddedObject>
+				<EmbeddedObject>
+					<Id>1729149322396</Id>
+					<Name><![CDATA[VF3_2_Программа_1]]></Name>
+					<X>595</X><Y>300</Y>
+					<Label><X>-35</X><Y>-10</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<ActiveObjectClass>
+						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
+						<ClassName><![CDATA[Service]]></ClassName>
+					</ActiveObjectClass>
+					<GenericParameterSubstitute>
+						<GenericParameterSubstituteReference>
+							<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
+							<ClassName><![CDATA[Service]]></ClassName>
+							<ItemName><![CDATA[1412336243141]]></ItemName>
+						</GenericParameterSubstituteReference>
+						<GenericParameterSubstituteValue Class="CodeValue">
+							<Code><![CDATA[Деталь]]></Code>
+						</GenericParameterSubstituteValue>
+					</GenericParameterSubstitute>
+					<Parameters>
+						<Parameter>
+							<Name><![CDATA[seizeFromOnePool]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[resourceSets]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[resourcePool]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[resourceQuantity]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[seizePolicy]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[queueCapacity]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[vF3_2_Программа_1_queueCapacity]]></Code>
+							</Value>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[maximumCapacity]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[delayTime]]></Name>
+							<Value Class="CodeUnitValue">
+								<Code><![CDATA[vF3_2_Программа_1_delayTime(agent)]]></Code>
+								<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
+							</Value>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[sendResources]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[destinationType]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[destinationNode]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[destinationAttractor]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[movingGoHome]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[entityLocationQueue]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[entityLocationDelay]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[priority]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[taskMayPreemptOtherTasks]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[taskPreemptionPolicy]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[terminatedTasksEnter]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[suspendResumeEntities]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[wrapUpTaskPolicyType]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[wrapUpTaskPriority]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[wrapUpTaskPreemptionPolicy]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[customizeResourceChoice]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[resourceChoiceCondition]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[resourceSelectionMode]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[resourceRating]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[resourceComparison]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[enableTimeout]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[timeout]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[enablePreemption]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[restoreEntityLocationOnExit]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[forceStatisticsCollection]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[wrapUpUsageState]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onEnter]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onExitTimeout]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onExitPreempted]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onSeizeUnit]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onEnterDelay]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onAtExit]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onExit]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onTaskTerminated]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onTaskSuspended]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onTaskResumed]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onRemove]]></Name>
+						</Parameter>
+					</Parameters>
+					<ReplicationFlag>false</ReplicationFlag>
+					<Replication Class="CodeValue">
+						<Code><![CDATA[100]]></Code>
+					</Replication>
+					<CollectionType>ARRAY_LIST_BASED</CollectionType>
+					<InitialLocationType>AT_ANIMATION_POSITION</InitialLocationType>
+					<XCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</XCode>
+					<YCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</YCode>
+					<ZCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</ZCode>
+					<ColumnCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</ColumnCode>
+					<RowCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</RowCode>
+					<LatitudeCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</LatitudeCode>
+					<LongitudeCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</LongitudeCode>
+					<LocationNameCode Class="CodeValue">
+						<Code><![CDATA[""]]></Code>
+					</LocationNameCode>
+					<InitializationType>SPECIFIED_NUMBER</InitializationType>
+					<InitializationDatabaseTableQuery>
+						<TableReference>
+						</TableReference>
+					</InitializationDatabaseTableQuery>
+					<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>
+					<QuantityColumn>
+					</QuantityColumn>
+				</EmbeddedObject>
+			</EmbeddedObjects>
+
+			<Presentation>
+				<Level>
+					<Id>1729149308877</Id>
+					<Name><![CDATA[level]]></Name>
+					<X>-320</X><Y>105</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LevelVisibility>DIM_NON_CURRENT</LevelVisibility>
+
+			<Presentation>
+				<Image>
+					<Id>1729149542704</Id>
+					<Name><![CDATA[image]]></Name>
+					<X>490</X><Y>85</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<EmbeddedIcon>true</EmbeddedIcon>
+					<Z>0</Z>
+					<Width>40</Width>
+					<Height>31</Height>
+					<Rotation>0.0</Rotation>
+					<ImageFiles>
+						<ImageResourceReference>
+							<PackageName><![CDATA[optimalproduction]]></PackageName>
+							<ClassName><![CDATA[machine.png]]></ClassName>
 						</ImageResourceReference>
 					</ImageFiles>
 					<OriginalSize>false</OriginalSize>
@@ -20051,7 +20529,7 @@ T agent - the agent.
 					<ImageFiles>
 						<ImageResourceReference>
 							<PackageName><![CDATA[optimalproduction]]></PackageName>
-							<ClassName><![CDATA[image.jpg]]></ClassName>
+							<ClassName><![CDATA[background.jpg]]></ClassName>
 						</ImageResourceReference>
 					</ImageFiles>
 					<OriginalSize>false</OriginalSize>
@@ -20213,7 +20691,7 @@ getExperimentHost().setPresentable( getEngine().getRoot() );]]></OnClickCode>
 					<ImageFiles>
 						<ImageResourceReference>
 							<PackageName><![CDATA[optimalproduction]]></PackageName>
-							<ClassName><![CDATA[image.jpg]]></ClassName>
+							<ClassName><![CDATA[background.jpg]]></ClassName>
 						</ImageResourceReference>
 					</ImageFiles>
 					<OriginalSize>false</OriginalSize>
@@ -23319,13 +23797,28 @@ public class TVSDataItem extends DataItem implements Serializable {
 	</JavaClasses>
 	<ModelResources>
 		<Resource>
-			<Path><![CDATA[image.jpg]]></Path>
+			<Path><![CDATA[assembly.png]]></Path>
 			<ReferencedFromUserCode>false</ReferencedFromUserCode>
 			<Location>FILE_SYSTEM</Location>
 		</Resource>
 		<Resource>
-			<Path><![CDATA[teamwork.png]]></Path>
+			<Path><![CDATA[machine.png]]></Path>
 			<ReferencedFromUserCode>false</ReferencedFromUserCode>
+			<Location>FILE_SYSTEM</Location>
+		</Resource>
+		<Resource>
+			<Path><![CDATA[background.jpg]]></Path>
+			<ReferencedFromUserCode>false</ReferencedFromUserCode>
+			<Location>FILE_SYSTEM</Location>
+		</Resource>
+		<Resource>
+			<Path><![CDATA[ico/assembly.png]]></Path>
+			<ReferencedFromUserCode>true</ReferencedFromUserCode>
+			<Location>FILE_SYSTEM</Location>
+		</Resource>
+		<Resource>
+			<Path><![CDATA[ico/machine.png]]></Path>
+			<ReferencedFromUserCode>true</ReferencedFromUserCode>
 			<Location>FILE_SYSTEM</Location>
 		</Resource>
 	</ModelResources>
